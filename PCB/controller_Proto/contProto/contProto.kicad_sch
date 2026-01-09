@@ -1934,6 +1934,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Magnetic:DRV5033FAxLPG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV5033FAxLPG"
+				(at 7.62 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5033.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "±3.5 / ±2 mT, 20-kHz, 2-38V, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Digital Omnipolar Switch Hall Effect Sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DRV5033FAxLPG_1_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2336,6 +2470,16 @@
 		)
 		(uuid "03292109-ddc1-4b0c-bc37-f5e3a1e602d4")
 	)
+	(label "L2P"
+		(at 152.4 171.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06071614-b649-47e2-9176-06cf7396d9e7")
+	)
 	(label "Btn_-"
 		(at 173.99 91.44 180)
 		(effects
@@ -2345,6 +2489,36 @@
 			(justify right bottom)
 		)
 		(uuid "0d47c8de-8fdb-44ca-b8d2-357da3a9af0a")
+	)
+	(label "L2P"
+		(at 154.94 162.56 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ffc5141-f369-4d9f-b4e6-82d0a3557ddd")
+	)
+	(label "R1"
+		(at 83.82 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "152f8c42-67b0-4ed3-97c7-83476fad8568")
+	)
+	(label "R2P"
+		(at 139.7 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "170080c0-e711-4164-9466-5098e69d93b7")
 	)
 	(label "D"
 		(at 62.23 120.65 0)
@@ -2395,6 +2569,16 @@
 			(justify right bottom)
 		)
 		(uuid "1d8c6025-a47b-4ae6-a3f1-c876212c2163")
+	)
+	(label "L2"
+		(at 62.23 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dc9a4e5-7c49-4159-b9f7-c03da99e2ff3")
 	)
 	(label "Xout"
 		(at 85.09 57.15 180)
@@ -2516,16 +2700,6 @@
 		)
 		(uuid "569f02cd-3d55-419f-8592-db2aa8f969e2")
 	)
-	(label "L2"
-		(at 83.82 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "575be1f1-b9c3-476e-9c00-271506dd88eb")
-	)
 	(label "X2out"
 		(at 86.36 120.65 180)
 		(effects
@@ -2566,6 +2740,16 @@
 		)
 		(uuid "61ec7771-becf-460e-b817-59e51e83530d")
 	)
+	(label "R1P"
+		(at 134.62 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "638262be-5c69-4f9d-9c3f-4aa8880c5d5a")
+	)
 	(label "Btn_D"
 		(at 173.99 60.96 90)
 		(effects
@@ -2595,6 +2779,16 @@
 			(justify left bottom)
 		)
 		(uuid "6c1a5106-aab1-49e2-a73a-5b7160260b27")
+	)
+	(label "L1"
+		(at 74.93 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ca3db48-81a4-4e2b-8bca-3b5f75cad93f")
 	)
 	(label "Vin2"
 		(at 38.1 123.19 180)
@@ -2646,15 +2840,15 @@
 		)
 		(uuid "7c75c61a-25e0-4186-a998-9e1b15143cbd")
 	)
-	(label "R2"
-		(at 62.23 143.51 0)
+	(label "R1"
+		(at 63.5 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "86ada84a-a720-4043-99f8-d265044f1300")
+		(uuid "811ef39e-91e6-4002-aceb-2a9c342f7835")
 	)
 	(label "X"
 		(at 63.5 45.72 0)
@@ -2695,6 +2889,16 @@
 			(justify left bottom)
 		)
 		(uuid "91769eb7-adfe-4fe9-84b3-1112c8f2cded")
+	)
+	(label "L1P"
+		(at 149.86 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93dad612-e6c0-4286-ba30-4727804ee1fd")
 	)
 	(label "X"
 		(at 31.75 85.09 0)
@@ -2766,6 +2970,36 @@
 		)
 		(uuid "a54a1330-36d7-4c11-b458-80ca97bcabba")
 	)
+	(label "L2"
+		(at 74.93 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aca107af-28f6-43bd-bc6c-8535d510ecf7")
+	)
+	(label "L1"
+		(at 62.23 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af7e3241-3204-48e2-8605-85dcf9cd9eec")
+	)
+	(label "L1P"
+		(at 154.94 171.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afa90a07-343c-4226-bc43-f7a6876f755e")
+	)
 	(label "Vin2"
 		(at 21.59 184.15 180)
 		(effects
@@ -2826,6 +3060,16 @@
 		)
 		(uuid "c6820c7b-bdf6-40e0-9988-74fa3cb92321")
 	)
+	(label "R1P"
+		(at 139.7 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7897397-e7aa-426a-ad75-5e9df54eb2f0")
+	)
 	(label "A"
 		(at 31.75 80.01 0)
 		(effects
@@ -2856,16 +3100,6 @@
 		)
 		(uuid "d077a807-8034-4a03-bc97-2c54339f262e")
 	)
-	(label "R1"
-		(at 62.23 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc5add37-5f97-4c15-9495-52e5243a5790")
-	)
 	(label "Btn_L"
 		(at 165.1 40.64 180)
 		(effects
@@ -2875,16 +3109,6 @@
 			(justify right bottom)
 		)
 		(uuid "dd053412-de3f-49b4-8973-5af9d75f273e")
-	)
-	(label "L1"
-		(at 83.82 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd09e894-f033-4db7-9eaa-3cc78b80f116")
 	)
 	(label "A32"
 		(at 62.23 146.05 0)
@@ -2897,14 +3121,14 @@
 		(uuid "de920c09-95d9-4682-87f1-6ea74cd65f31")
 	)
 	(label "R2"
-		(at 74.93 172.72 180)
+		(at 63.5 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "dfe7eda8-b466-4b9b-a26c-c7061576c085")
+		(uuid "dfb81a2d-d18d-44a6-9935-4838912774e5")
 	)
 	(label "Xout"
 		(at 63.5 58.42 0)
@@ -2916,15 +3140,15 @@
 		)
 		(uuid "e0931a63-589e-4cd5-bfda-4fb33f517ec2")
 	)
-	(label "L2"
-		(at 63.5 63.5 0)
+	(label "R2P"
+		(at 137.16 110.49 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e10708c3-4580-4a95-99ce-74df7b366300")
+		(uuid "e31e1b72-c760-4e2a-a556-ec653396a92e")
 	)
 	(label "Vin"
 		(at 22.86 27.94 180)
@@ -2935,16 +3159,6 @@
 			(justify right bottom)
 		)
 		(uuid "e5271129-c528-401f-add9-724866d0b206")
-	)
-	(label "L1"
-		(at 63.5 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e57793fc-6a84-41da-9efd-2c57e18ab4f0")
 	)
 	(label "Btn_B"
 		(at 256.54 39.37 180)
@@ -2966,6 +3180,16 @@
 		)
 		(uuid "eb73dddb-c638-4e3d-871d-246a29219308")
 	)
+	(label "R2"
+		(at 83.82 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecfa7bc7-ab95-41a5-9ba1-f3b2126839b2")
+	)
 	(label "D"
 		(at 21.59 166.37 90)
 		(effects
@@ -2986,16 +3210,6 @@
 		)
 		(uuid "f5c79ff5-a06a-4aad-8a12-0a4ef0988d75")
 	)
-	(label "R1"
-		(at 74.93 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6fa0d12-65b6-4b11-957b-ce892c7f67ea")
-	)
 	(label "L"
 		(at 26.67 166.37 90)
 		(effects
@@ -3005,6 +3219,28 @@
 			(justify left bottom)
 		)
 		(uuid "fbc6eb90-d542-42b6-a28f-40d7a5f68211")
+	)
+	(global_label "VCC_LSP"
+		(shape input)
+		(at 149.86 171.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01e376b5-6fff-47dc-8b8c-60dd89f14c59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 160.361 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GND"
 		(shape input)
@@ -3050,6 +3286,28 @@
 			)
 		)
 	)
+	(global_label "GND_LSP"
+		(shape input)
+		(at 160.02 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ac67c52-165e-4871-9e65-6586f34c780d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.3509 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 50.8 20.32 180)
@@ -3068,6 +3326,72 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_RSP"
+		(shape input)
+		(at 129.54 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "307d7a97-1c53-49ba-96aa-7c1f86cda488")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.9672 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_RSP"
+		(shape input)
+		(at 132.08 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30ccc6ca-9be6-4c22-b269-809b8c9e4768")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 98.9172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_LSP"
+		(shape input)
+		(at 147.32 171.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39673165-2a35-48d0-a268-9a2b09135d11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 160.1191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3129,6 +3453,28 @@
 		(uuid "4e3aa6f5-306a-49e8-ac30-c3dacb8e7272")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.8943 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_LSP"
+		(shape input)
+		(at 144.78 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5803f046-4b42-4a75-b480-50300f142085")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.4491 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,6 +3594,50 @@
 			)
 		)
 	)
+	(global_label "VCC_RSP"
+		(shape input)
+		(at 134.62 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98cd4135-9e84-40b7-8e7f-15bf7d4c0ed5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 99.1591 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_LSP"
+		(shape input)
+		(at 165.1 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99f77e7d-8096-4b98-a1ff-41244621b125")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.189 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 83.82 78.74 180)
@@ -3292,6 +3682,28 @@
 			)
 		)
 	)
+	(global_label "VCC_RSP"
+		(shape input)
+		(at 149.86 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3dbbcef-17de-4b5a-b17b-dba6764ac8d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.1909 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 24.13 135.89 180)
@@ -3310,6 +3722,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_RSP"
+		(shape input)
+		(at 144.78 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e13fb84b-789b-4088-849d-4a4d9f2f56c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.3528 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3688,6 +4122,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Magnetic:DRV5033FAxLPG")
+		(at 139.7 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "223f3f2b-f9c1-42b8-91c9-bcb3fc9df132")
+		(property "Reference" "U4"
+			(at 139.7 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV5033FAxLPG"
+			(at 139.7 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5033.pdf"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±3.5 / ±2 mT, 20-kHz, 2-38V, TO-92"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "20b7fc79-0126-428e-a92d-d27f840d0468")
+		)
+		(pin "2"
+			(uuid "748d075e-0c6e-452c-a777-2113b02921a0")
+		)
+		(pin "1"
+			(uuid "03af9cd5-e040-4307-8dfd-5c8dc00275bb")
+		)
+		(instances
+			(project ""
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
 		(at 250.19 49.53 0)
 		(unit 1)
@@ -3713,7 +4218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 250.19 54.61 0)
 			(effects
 				(font
@@ -4223,7 +4728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 196.85 102.87 0)
 			(effects
 				(font
@@ -4520,7 +5025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 179.07 109.22 0)
 			(effects
 				(font
@@ -4606,7 +5111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 266.7 106.68 0)
 			(effects
 				(font
@@ -4727,6 +5232,77 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Magnetic:DRV5033FAxLPG")
+		(at 154.94 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "452553fc-dd01-4c2e-b352-1632e34685e7")
+		(property "Reference" "U3"
+			(at 154.94 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV5033FAxLPG"
+			(at 154.94 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5033.pdf"
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±3.5 / ±2 mT, 20-kHz, 2-38V, TO-92"
+			(at 154.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2312e75d-59d6-4732-97ad-682a05f9536c")
+		)
+		(pin "1"
+			(uuid "9affd8ac-c9a9-4c7c-9500-439a30b7d32c")
+		)
+		(pin "3"
+			(uuid "3259b253-0387-4f99-8334-6fe7097ecc6d")
+		)
+		(instances
+			(project ""
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5346,7 +5922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 182.88 54.61 0)
 			(effects
 				(font
@@ -5432,7 +6008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 237.49 45.72 0)
 			(effects
 				(font
@@ -5941,7 +6517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 248.92 113.03 0)
 			(effects
 				(font
@@ -6453,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 182.88 36.83 0)
 			(effects
 				(font
@@ -6605,7 +7181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 250.19 36.83 0)
 			(effects
 				(font
@@ -6839,7 +7415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 248.92 100.33 0)
 			(effects
 				(font
@@ -7135,7 +7711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 194.31 44.45 0)
 			(effects
 				(font
@@ -7190,6 +7766,91 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 137.16 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a33cfaff-ed57-47eb-81e7-a74325d5baea")
+		(property "Reference" "J16"
+			(at 143.51 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 143.51 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:JST_1x04_P2.0mm_Horizontal_SMD"
+			(at 125.476 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 122.936 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 120.396 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 117.856 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "94c67554-76a5-40ea-95ba-6425e8c55d0e")
+		)
+		(pin "1"
+			(uuid "510133c8-6bc6-4181-8987-1a9eec7c532f")
+		)
+		(pin "2"
+			(uuid "880f948e-9a68-412e-a5c5-b0a7c29f622a")
+		)
+		(pin "3"
+			(uuid "c793f710-77da-4daf-9400-bacddf86fd22")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -8371,7 +9032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 261.62 44.45 0)
 			(effects
 				(font
@@ -8457,7 +9118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 170.18 45.72 0)
 			(effects
 				(font
@@ -8518,6 +9179,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 152.4 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e72633a9-7852-4130-8139-e8ae0eac8ef1")
+		(property "Reference" "J15"
+			(at 158.75 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 158.75 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:JST_1x04_P2.0mm_Horizontal_SMD"
+			(at 140.716 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 138.176 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 135.636 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 133.096 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "07b2cc08-bcd8-4753-a940-3e84d9b32272")
+		)
+		(pin "1"
+			(uuid "9b598486-0a6e-42e9-8e76-ac3ca514c741")
+		)
+		(pin "2"
+			(uuid "55ec83b2-7ca4-4b19-acf2-b9446f645895")
+		)
+		(pin "3"
+			(uuid "4274dc7e-b50f-4865-846b-0d451b2abd3c")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
 		(at 179.07 91.44 0)
 		(unit 1)
@@ -8543,7 +9289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73PSMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -8732,6 +9478,178 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
+		(at 139.7 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecd7bacf-54a1-4b48-b75f-04171fb9f69e")
+		(property "Reference" "SW15"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD_12x12mm_h8.5mm"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-11967"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "EG4904TR-ND"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e93d314-0142-431e-bb84-b125f08fa7bd")
+		)
+		(pin "2"
+			(uuid "46890941-893b-47d2-8798-ce373a6a65f9")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
+		(at 154.94 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed147462-79cb-4be2-8f26-df54d2d659e0")
+		(property "Reference" "SW16"
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD_12x12mm_h8.5mm"
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 154.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"
+			(at 154.94 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 154.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-11967"
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "EG4904TR-ND"
+			(at 154.94 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f78a370-3dee-47aa-9e00-e27344631106")
+		)
+		(pin "2"
+			(uuid "9f3313a4-5666-47de-adfc-31dd42738b6f")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "SW16")
 					(unit 1)
 				)
 			)
