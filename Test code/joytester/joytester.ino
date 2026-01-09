@@ -44,7 +44,9 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_GAMEPAD,
 void setup() {
 
   // Initialize Joystick Library
-  Joystick.begin();
+  pinMode(9, INPUT);
+  Serial.begin(9600);
+  //Joystick.begin();
 
   Joystick.setXAxisRange(95, 550);
   Joystick.setYAxisRange(550, 95);
@@ -54,12 +56,12 @@ void setup() {
 }
 
 void loop() {
+  //Serial.println(digitalRead(9));
+  Serial.println(analogRead(A0));
+  Serial.println(analogRead(A1));
   
-  Joystick.setXAxis(analogRead(A2));
-  Joystick.setYAxis(analogRead(A3));
+  //Joystick.setRudder(analogRead(A0));
+  //Joystick.setThrottle(analogRead(A1));
 
-  Joystick.setRudder(analogRead(A0));
-  Joystick.setThrottle(analogRead(A1));
-
-  delay(10);
+  delay(100);
 }
