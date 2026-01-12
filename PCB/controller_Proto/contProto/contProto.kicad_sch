@@ -3020,10 +3020,6 @@
 		(uuid "a901325d-1030-4230-8b77-b35d921186d7")
 	)
 	(no_connect
-		(at 269.24 157.48)
-		(uuid "abbf1ea6-30a5-46c6-b090-fa2c2129e0b1")
-	)
-	(no_connect
 		(at 39.37 50.8)
 		(uuid "ae2dd581-ed87-4438-9403-378e288448f1")
 	)
@@ -3217,6 +3213,16 @@
 		)
 		(uuid "03292109-ddc1-4b0c-bc37-f5e3a1e602d4")
 	)
+	(label "PP3"
+		(at 218.44 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03ed9755-0450-462d-80a6-1e7bf46bab42")
+	)
 	(label "L2P"
 		(at 152.4 171.45 90)
 		(effects
@@ -3226,6 +3232,16 @@
 			(justify left bottom)
 		)
 		(uuid "06071614-b649-47e2-9176-06cf7396d9e7")
+	)
+	(label "PPVCC1"
+		(at 219.71 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "096dfe2f-c099-4d32-baf0-9f4ad0f40977")
 	)
 	(label "Btn_-"
 		(at 173.99 91.44 180)
@@ -3258,7 +3274,7 @@
 		(uuid "0ffc5141-f369-4d9f-b4e6-82d0a3557ddd")
 	)
 	(label "SR_VCC"
-		(at 256.54 121.92 90)
+		(at 251.46 105.41 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3277,6 +3293,16 @@
 		)
 		(uuid "152f8c42-67b0-4ed3-97c7-83476fad8568")
 	)
+	(label "Btn2"
+		(at 236.22 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15450629-a280-47ed-b816-09a7e5ae30e1")
+	)
 	(label "Pad4"
 		(at 62.23 135.89 0)
 		(effects
@@ -3286,6 +3312,16 @@
 			(justify left bottom)
 		)
 		(uuid "16062dfe-c33f-4e7c-b76b-35e07116af5a")
+	)
+	(label "PP2"
+		(at 214.63 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1642674d-0c64-40b2-b0d9-955bc3135564")
 	)
 	(label "D_VCC"
 		(at 175.26 40.64 0)
@@ -3316,6 +3352,16 @@
 			(justify left bottom)
 		)
 		(uuid "17d29aa5-368d-4140-9c94-09a6eaf01cb3")
+	)
+	(label "PPVCC2"
+		(at 228.6 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19c49e9e-3549-4d6a-b799-b8dc66da2093")
 	)
 	(label "SR_VCC"
 		(at 271.78 101.6 0)
@@ -3377,8 +3423,18 @@
 		)
 		(uuid "1dc9a4e5-7c49-4159-b9f7-c03da99e2ff3")
 	)
+	(label "PPVCC2"
+		(at 226.06 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f1c4574-bd0d-4973-bd0c-bfda4e5a5459")
+	)
 	(label "SL_VCC"
-		(at 186.69 118.11 90)
+		(at 180.34 102.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3487,8 +3543,18 @@
 		)
 		(uuid "3cf3e859-2110-4ee3-8097-8375961eb985")
 	)
+	(label "PPVCC2"
+		(at 228.6 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d45e399-d7de-4807-88ea-1343c95d65e3")
+	)
 	(label "Btn_-"
-		(at 181.61 118.11 90)
+		(at 175.26 102.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3537,7 +3603,17 @@
 		)
 		(uuid "4831a354-ef48-4df4-b412-0bc5896e8c27")
 	)
-	(label "Btn_SP"
+	(label "PP4"
+		(at 220.98 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49155948-75ae-4af6-8f99-02537425041f")
+	)
+	(label "Btn_SP2"
 		(at 261.62 101.6 180)
 		(effects
 			(font
@@ -3546,6 +3622,16 @@
 			(justify right bottom)
 		)
 		(uuid "4d63a58c-d698-4c34-b30f-5cae432e2033")
+	)
+	(label "PPVCC1"
+		(at 222.25 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ea7770d-cd3b-4826-99af-f57ed02d8fe7")
 	)
 	(label "FB_VCC"
 		(at 242.57 40.64 0)
@@ -3698,7 +3784,7 @@
 		(uuid "615730d4-656a-4b1a-af3c-b80279955ef3")
 	)
 	(label "Btn_SP3"
-		(at 184.15 118.11 90)
+		(at 177.8 102.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3738,7 +3824,7 @@
 		(uuid "693f3272-103d-4dc7-bfb7-88229237ab95")
 	)
 	(label "Btn_+"
-		(at 254 121.92 90)
+		(at 248.92 105.41 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3806,6 +3892,26 @@
 			(justify left bottom)
 		)
 		(uuid "6fb6a9ee-4e2d-43f4-be05-cc9d01429723")
+	)
+	(label "PPVCC1"
+		(at 222.25 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7178c202-c563-4796-b20e-244a101bcfbc")
+	)
+	(label "PP2"
+		(at 212.09 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73f28a5f-08aa-4bf9-b197-9d2e2e6898dc")
 	)
 	(label "minus"
 		(at 62.23 128.27 0)
@@ -4097,6 +4203,16 @@
 		)
 		(uuid "afa90a07-343c-4226-bc43-f7a6876f755e")
 	)
+	(label "PP1"
+		(at 212.09 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1aa2b77-b730-46ad-a6de-583e891709b5")
+	)
 	(label "Pad1"
 		(at 63.5 53.34 0)
 		(effects
@@ -4138,7 +4254,7 @@
 		(uuid "b43bb49f-deef-4401-b466-e4c4f0a15766")
 	)
 	(label "Btn_SP2"
-		(at 251.46 121.92 90)
+		(at 246.38 105.41 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4156,6 +4272,16 @@
 			(justify right bottom)
 		)
 		(uuid "b6462a4d-bf2c-44f3-bf1e-15e4fab9c97c")
+	)
+	(label "PP4"
+		(at 218.44 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b73692d6-e048-4ca2-b1d5-acd070e69a76")
 	)
 	(label "Btn_Y"
 		(at 248.92 60.96 90)
@@ -4226,6 +4352,16 @@
 			(justify right bottom)
 		)
 		(uuid "c7dec6a8-175c-4b5f-9858-3947744b18e7")
+	)
+	(label "Btn"
+		(at 269.24 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c84e6fe7-736a-43f3-9a3a-9201176f5db5")
 	)
 	(label "A"
 		(at 31.75 80.01 0)
@@ -4337,6 +4473,16 @@
 		)
 		(uuid "e0931a63-589e-4cd5-bfda-4fb33f517ec2")
 	)
+	(label "PP1"
+		(at 217.17 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1ee46bc-a01e-4c0a-937e-77058df92b83")
+	)
 	(label "R2P"
 		(at 137.16 110.49 90)
 		(effects
@@ -4406,6 +4552,16 @@
 			(justify left bottom)
 		)
 		(uuid "e7a38549-7887-469f-9da5-aeec311dcfed")
+	)
+	(label "PP3"
+		(at 223.52 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e96cc76f-11cb-49f8-ade7-1dd1a0bcfcba")
 	)
 	(label "U"
 		(at 243.84 138.43 180)
@@ -6077,6 +6233,92 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
+		(at 217.17 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1efc5d5f-bfeb-44e9-a6fc-a092f9a00648")
+		(property "Reference" "SW13"
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD_12x12mm_h8.5mm"
+			(at 217.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 217.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"
+			(at 217.17 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-11967"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "EG4904TR-ND"
+			(at 217.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16e80b1a-13ca-449a-819c-c52abbbb4b00")
+		)
+		(pin "2"
+			(uuid "f63a6bdc-2003-442e-914c-cc21b6fb9962")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Resistor:1k_0402")
 		(at 224.79 147.32 0)
 		(unit 1)
@@ -6746,6 +6988,88 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x03_JST_P1.0mm_Horizontal_SMD")
+		(at 223.52 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b384ce2-eae0-4b08-a4df-b3ac5df75d34")
+		(property "Reference" "J22"
+			(at 229.87 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_1mm_3"
+			(at 229.87 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
+			(at 214.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3 Pin 2mm JST Connector"
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-10492"
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd9712aa-80d1-4826-b1b0-15624fad3ae7")
+		)
+		(pin "1"
+			(uuid "3a9fd7c0-61d3-4fee-bc65-862cfa00aa06")
+		)
+		(pin "3"
+			(uuid "535844d6-e132-4e5a-b34e-b0bd9cf9eddc")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -9284,6 +9608,92 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
+		(at 217.17 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e650c33-c96d-4ccd-8bc4-d52b48eade93")
+		(property "Reference" "SW6"
+			(at 217.17 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD_12x12mm_h8.5mm"
+			(at 217.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 217.17 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-11967"
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "EG4904TR-ND"
+			(at 217.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49d863d3-f794-4b33-8c49-d3938fa9ca30")
+		)
+		(pin "2"
+			(uuid "e4ac21da-708a-4d32-8e5f-f4e3c8399af2")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 147.32 0)
 		(unit 1)
@@ -9344,6 +9754,92 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
+		(at 223.52 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7768375c-4697-47a5-823c-aed31047a115")
+		(property "Reference" "SW20"
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD_12x12mm_h8.5mm"
+			(at 223.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 223.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-11967"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "EG4904TR-ND"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9026fc8e-b8be-417d-a2b4-39c7d8936584")
+		)
+		(pin "2"
+			(uuid "a70944c4-2d9a-4f83-bec9-2dcb2c343908")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -10801,7 +11297,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Connector:Conn_01x03_JST_P1.0mm_Horizontal_SMD")
-		(at 184.15 123.19 270)
+		(at 177.8 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10810,7 +11306,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3b8e3c0-0f12-49c7-a8a7-68d437739719")
 		(property "Reference" "J12"
-			(at 190.5 121.9199 90)
+			(at 184.15 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10819,7 +11315,7 @@
 			)
 		)
 		(property "Value" "JST_1mm_3"
-			(at 190.5 124.4599 90)
+			(at 184.15 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +11324,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
-			(at 175.26 123.19 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,7 +11333,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 172.72 123.19 0)
+			(at 166.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10846,7 +11342,7 @@
 			)
 		)
 		(property "Description" "3 Pin 2mm JST Connector"
-			(at 167.64 123.19 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,7 +11351,7 @@
 			)
 		)
 		(property "PROD_ID" "CONN-10492"
-			(at 170.18 123.19 0)
+			(at 163.83 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,6 +11372,88 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x03_JST_P1.0mm_Horizontal_SMD")
+		(at 217.17 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a528ced2-de4e-4e55-b4d1-72eeb9b5c69c")
+		(property "Reference" "J23"
+			(at 223.52 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_1mm_3"
+			(at 223.52 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 205.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3 Pin 2mm JST Connector"
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-10492"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef89e374-8565-4765-8ca3-11eb95f596eb")
+		)
+		(pin "1"
+			(uuid "6fe5f0b9-71e4-45bf-9576-0b3fa6fb63cf")
+		)
+		(pin "3"
+			(uuid "3f3ffb55-b09b-45c8-afd3-a9b4fd941380")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -11093,7 +11671,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Connector:Conn_01x03_JST_P1.0mm_Horizontal_SMD")
-		(at 254 127 270)
+		(at 248.92 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11102,7 +11680,7 @@
 		(fields_autoplaced yes)
 		(uuid "b41dd060-eff0-44ee-a107-3ba51634e18b")
 		(property "Reference" "J4"
-			(at 260.35 125.7299 90)
+			(at 255.27 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11111,7 +11689,7 @@
 			)
 		)
 		(property "Value" "JST_1mm_3"
-			(at 260.35 128.2699 90)
+			(at 255.27 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11120,7 +11698,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
-			(at 245.11 127 0)
+			(at 240.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11129,7 +11707,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 242.57 127 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11138,7 +11716,7 @@
 			)
 		)
 		(property "Description" "3 Pin 2mm JST Connector"
-			(at 237.49 127 0)
+			(at 232.41 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11147,7 +11725,7 @@
 			)
 		)
 		(property "PROD_ID" "CONN-10492"
-			(at 240.03 127 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11388,6 +11966,92 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
+		(at 223.52 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3584e83-a3ca-4efa-8c15-a392f9f9d5cd")
+		(property "Reference" "SW19"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD_12x12mm_h8.5mm"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 223.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-11967"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "EG4904TR-ND"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23105972-ed37-4fa6-bb20-cfb0c2590d34")
+		)
+		(pin "2"
+			(uuid "a2800c18-a681-4876-b8b2-31e7bb19b86b")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "SW19")
 					(unit 1)
 				)
 			)
