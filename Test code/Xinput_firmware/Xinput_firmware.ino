@@ -88,15 +88,42 @@ public:
     return mP;
   }
 
+  void setState(bool val){
+    state = val;
+  }
+
+  bool getState(){
+    return state;
+  }
+
   void bind(XInputControl id, int* var, int size) {
     if (id < 17) {
       XInput.setButton(id, var);
-    } else if (size  < 3 ) {
+    } else if (size == 3 ) {
+      setStick(id, var[0], var[1]);
     }
     else if (size >=3 && size  <5){
-      
+      setStick(id, var[0], var[1], var[2], var[3]);
     }
-    else if (size >=5 && size  <6){}
+    
+  }
+
+  void bindAll(){
+    for (int i = 0; i < 17; i++) {
+      Xinput.setButton(i, buts[i]);
+    }
+    setStick(JOY_LEFT, lStick[0], lStick[1]);
+    setStick(JOY_RIGHT, rStick[0], rStick[1]);
+  }
+
+  void begin(){
+    state = true;
+    bindAll();
+    XInput.begin();
+  } 
+
+  void stop(){
+    state = false;
   }
 
 private:
