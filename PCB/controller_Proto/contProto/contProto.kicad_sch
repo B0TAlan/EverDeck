@@ -3798,20 +3798,8 @@
 		(uuid "2621df6c-2d3c-4d5d-a75e-e146fdf8ae99")
 	)
 	(no_connect
-		(at 38.1 130.81)
-		(uuid "3e27ece6-65a6-4ffb-b491-f813790778bb")
-	)
-	(no_connect
 		(at 90.17 49.53)
 		(uuid "5314e7a9-f38d-40f5-b7fc-b1286c04ccfa")
-	)
-	(no_connect
-		(at 46.99 160.02)
-		(uuid "56c1702b-9557-4c0f-9438-77d4addeaf02")
-	)
-	(no_connect
-		(at 78.74 22.86)
-		(uuid "65fc3e1b-0c59-4827-9d6f-ed6edeb79d2e")
 	)
 	(no_connect
 		(at 90.17 54.61)
@@ -3822,28 +3810,12 @@
 		(uuid "8695bcb8-a416-4a5f-a7c8-fb505f0bd4bb")
 	)
 	(no_connect
+		(at 109.22 30.48)
+		(uuid "9ec17f59-6d64-4bf9-8bfe-857ea4aa4cd7")
+	)
+	(no_connect
 		(at 91.44 118.11)
 		(uuid "a901325d-1030-4230-8b77-b35d921186d7")
-	)
-	(no_connect
-		(at 39.37 50.8)
-		(uuid "ae2dd581-ed87-4438-9403-378e288448f1")
-	)
-	(no_connect
-		(at 38.1 128.27)
-		(uuid "aef782f3-36fd-4760-8160-88aef86f27f7")
-	)
-	(no_connect
-		(at 44.45 160.02)
-		(uuid "afc5c63a-7daf-4a63-9afc-080be56a42ac")
-	)
-	(no_connect
-		(at 39.37 48.26)
-		(uuid "bc416413-79c5-4306-a453-544d7c89a09b")
-	)
-	(no_connect
-		(at 81.28 22.86)
-		(uuid "bc4f39a6-f72c-453b-bb3f-aaf537a1b5da")
 	)
 	(no_connect
 		(at 273.05 127)
@@ -3856,6 +3828,10 @@
 	(no_connect
 		(at 91.44 128.27)
 		(uuid "e1a8e3b0-db7f-46a2-87f0-769b08bcd4e2")
+	)
+	(no_connect
+		(at 81.28 146.05)
+		(uuid "fabe6f7a-2c87-49bd-aac3-de7a1c700bd6")
 	)
 	(wire
 		(pts
@@ -4067,6 +4043,16 @@
 		)
 		(uuid "03ed9755-0450-462d-80a6-1e7bf46bab42")
 	)
+	(label "Rx1"
+		(at 81.28 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04cd10f6-dec2-4a16-8841-6f27216e0789")
+	)
 	(label "L2P"
 		(at 152.4 171.45 90)
 		(effects
@@ -4097,6 +4083,16 @@
 		)
 		(uuid "0d47c8de-8fdb-44ca-b8d2-357da3a9af0a")
 	)
+	(label "tx1"
+		(at 39.37 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0db45610-b6d1-48e5-abb1-1a521e4ed493")
+	)
 	(label "R1"
 		(at 210.82 147.32 180)
 		(effects
@@ -4106,6 +4102,16 @@
 			(justify right bottom)
 		)
 		(uuid "0e3fa271-c1df-4155-a622-1d2f0f606208")
+	)
+	(label "tx1"
+		(at 78.74 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f259a18-edfd-40c2-893b-fb1370f0eb2c")
 	)
 	(label "Vin2"
 		(at 31.75 109.22 270)
@@ -4307,6 +4313,16 @@
 		)
 		(uuid "1fa722aa-5aa8-410a-9a0b-49c691ee88a9")
 	)
+	(label "Rx2"
+		(at 38.1 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21033086-39ae-4742-aab7-e807302f75d6")
+	)
 	(label "Xout"
 		(at 90.17 41.91 180)
 		(effects
@@ -4396,6 +4412,16 @@
 			(justify right bottom)
 		)
 		(uuid "361d5f47-4de8-49f2-8024-70690c92f770")
+	)
+	(label "tx2"
+		(at 38.1 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "396b1ea0-877c-4d75-92d6-730de12e7820")
 	)
 	(label "R2P"
 		(at 154.94 106.68 270)
@@ -4536,6 +4562,16 @@
 			(justify right bottom)
 		)
 		(uuid "4831a354-ef48-4df4-b412-0bc5896e8c27")
+	)
+	(label "tx2"
+		(at 44.45 160.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "489fdf4e-95b5-4a42-b222-781d70783e0c")
 	)
 	(label "PP4"
 		(at 220.98 106.68 90)
@@ -5046,6 +5082,16 @@
 			(justify right bottom)
 		)
 		(uuid "81b3562a-2a45-415e-890f-86d94ae2f5d5")
+	)
+	(label "Rx1"
+		(at 39.37 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82210c4d-c9bf-468d-9bc7-bdab3359a03d")
 	)
 	(label "plus"
 		(at 256.54 147.32 180)
@@ -5747,6 +5793,16 @@
 		)
 		(uuid "e71dea2f-aa62-405d-a913-fc7aff5dc5d3")
 	)
+	(label "Rx2"
+		(at 46.99 160.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e72719e8-9eaa-41bb-a729-f018bc54d210")
+	)
 	(label "SL_VCC"
 		(at 184.15 91.44 0)
 		(effects
@@ -6015,6 +6071,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 111.76 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "083948c3-2ef0-408a-9fe5-6c3e6cd2f5b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 23.9872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 24.13 133.35 180)
@@ -6077,6 +6155,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 83.82 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1407d1dc-1f2e-4f04-9cc4-1f4535bf3857")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 139.5572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC2"
+		(shape input)
+		(at 88.9 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14f2497d-37e0-4ee0-b8ea-b92c06c8ee2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 138.2267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6209,6 +6331,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 86.36 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d7ea4b7-dfe9-4191-b824-43cbfaf1c861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 139.4967 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6358,6 +6502,28 @@
 		(uuid "3f9f04ab-f713-43ef-a43f-6d5a0fbd17a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.75 158.5467 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 106.68 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d625d1f-5271-44f2-91f7-c38654b4c5f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 23.6243 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,6 +6705,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 114.3 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e19f1a0-3ae8-4266-81b3-b0cfb56f0f6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 23.9267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7089,6 +7277,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 116.84 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eec42c3e-23d7-433c-8eab-51d776e2d6ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 23.8662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10600,6 +10810,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 78.74 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee9d1f9-3176-4107-9010-183105ff4251")
+		(property "Reference" "#PWR012"
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "892b2e4b-6e03-4df8-be8a-871c4aa505e6")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 248.92 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13163,6 +13439,94 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x05_JST_P1.0mm_Horizontal_SMD")
+		(at 111.76 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ae8140c-6849-44b6-a2bd-34d211f2ef6d")
+		(property "Reference" "J37"
+			(at 120.65 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 120.65 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical"
+			(at 100.076 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 97.536 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Right angle SMD polarized connector"
+			(at 94.996 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-20121"
+			(at 92.456 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b2f4bcd-d610-4e12-838d-b6f251333030")
+		)
+		(pin "5"
+			(uuid "dc4733aa-5e8a-4d0c-b3fa-22b76e0c3fd7")
+		)
+		(pin "3"
+			(uuid "56516efb-e577-43c0-8e5a-f2537b2c7010")
+		)
+		(pin "4"
+			(uuid "1198afd2-c4f2-454c-832c-4e4007d445b6")
+		)
+		(pin "2"
+			(uuid "78b07383-fc60-4abb-8277-13df5375391d")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 157.48 0)
 		(unit 1)
@@ -14168,6 +14532,94 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x05_JST_P1.0mm_Horizontal_SMD")
+		(at 83.82 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b52fa387-1343-4014-881b-b43e96981d73")
+		(property "Reference" "J36"
+			(at 92.71 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 92.71 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical"
+			(at 72.136 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 69.596 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Right angle SMD polarized connector"
+			(at 67.056 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-20121"
+			(at 64.516 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2745fd4-2ea0-4202-a12b-812ffb894b27")
+		)
+		(pin "5"
+			(uuid "2ff30e82-6d48-41be-b897-29bdc0f9dcf7")
+		)
+		(pin "3"
+			(uuid "22100b91-0c07-4ef5-8863-7e5dd375a8af")
+		)
+		(pin "4"
+			(uuid "e28fd1f7-b4ce-439c-bd28-3b9f7303b192")
+		)
+		(pin "2"
+			(uuid "61cecba6-8d2d-4645-a334-3e7275466d56")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "J36")
 					(unit 1)
 				)
 			)
