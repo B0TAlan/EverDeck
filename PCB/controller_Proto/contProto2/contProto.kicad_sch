@@ -4445,16 +4445,6 @@
 		)
 		(uuid "19c49e9e-3549-4d6a-b799-b8dc66da2093")
 	)
-	(label "Yout"
-		(at 63.5 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bd9f55f-1ded-43a7-8cd4-63dbbbebf4ea")
-	)
 	(label "Y2out"
 		(at 62.23 140.97 0)
 		(effects
@@ -4735,16 +4725,6 @@
 		)
 		(uuid "5042d312-d0c9-455e-86d4-3583af28e8b9")
 	)
-	(label "Xout"
-		(at 55.88 22.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5058e490-b6d4-4cfa-83cd-3faf90fe9755")
-	)
 	(label "U"
 		(at 177.8 31.75 180)
 		(effects
@@ -4784,6 +4764,16 @@
 			(justify left bottom)
 		)
 		(uuid "5295f19e-2718-4a93-8a7a-54351597ec84")
+	)
+	(label "Yout"
+		(at 63.5 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "547604be-295d-4019-8f01-cdf7fcc52a8c")
 	)
 	(label "RST1"
 		(at 184.15 138.43 180)
@@ -5045,16 +5035,6 @@
 		)
 		(uuid "7178c202-c563-4796-b20e-244a101bcfbc")
 	)
-	(label "Yout"
-		(at 58.42 22.86 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "739b6d69-0db1-46da-9f55-2ffeeadf9a03")
-	)
 	(label "PP22"
 		(at 212.09 59.69 180)
 		(effects
@@ -5264,6 +5244,16 @@
 			(justify right bottom)
 		)
 		(uuid "93dad612-e6c0-4286-ba30-4727804ee1fd")
+	)
+	(label "Xout"
+		(at 63.5 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95e5a5d1-a2db-4c34-b281-c8a5e3dde235")
 	)
 	(label "RST1"
 		(at 151.13 24.13 180)
@@ -5615,6 +5605,16 @@
 		)
 		(uuid "ccb16b50-ce01-4322-9060-bd30d4b5aef3")
 	)
+	(label "Yout"
+		(at 55.88 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfc0f0d6-e9dc-4af6-a7f1-bae4bfe1b77d")
+	)
 	(label "U"
 		(at 59.69 160.02 270)
 		(effects
@@ -5695,16 +5695,6 @@
 		)
 		(uuid "e021e332-f899-4bad-8fea-28ee2789927f")
 	)
-	(label "Xout"
-		(at 63.5 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0931a63-589e-4cd5-bfda-4fb33f517ec2")
-	)
 	(label "PPGND"
 		(at 203.2 138.43 270)
 		(effects
@@ -5784,6 +5774,16 @@
 			(justify right bottom)
 		)
 		(uuid "e72719e8-9eaa-41bb-a729-f018bc54d210")
+	)
+	(label "Xout"
+		(at 58.42 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e78ff8e6-26de-4e54-ab40-fb21f7b65a7e")
 	)
 	(label "PP3"
 		(at 223.52 106.68 90)
