@@ -43,11 +43,16 @@ void loop() {
     mode = 0;
   }
 
-  Serial.print("mode: ");
-  Serial.println(mode);
+  Serial.print("x: ");
+  Serial.println(analogRead(A0));
+  Serial.print("y: ");
+  Serial.println(analogRead(A1));
+
+  Joystick.setXAxis(analogRead(A0));
+  Joystick.setYAxis(analogRead(A1));
 
   //Serial.print("pin 9: ");
- // Serial.println(debounce(9));
+ /* Serial.println(debounce(9));
 
   switch (mode)
   {
@@ -60,9 +65,9 @@ void loop() {
   default:
     bindJ(debounce(9));
     break;
-  }
+  }*/
 
-  //delay(100);
+  delay(100);
 }
 
 int debounce(int pin){

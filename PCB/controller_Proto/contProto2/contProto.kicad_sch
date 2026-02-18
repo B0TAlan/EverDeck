@@ -2540,198 +2540,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Connector:Conn_01x04_JST_P1.0mm_Horizontal_SMD"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "JST_1mm_4"
-				(at -0.254 -9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Connector:JST_1x04_P1.0mm_Horizontal_SMD"
-				(at -0.254 -11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-				(at -0.254 -14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single row 4 pin connector"
-				(at -0.254 -16.764 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SparkFun" "CONN-10310"
-				(at 0 -19.304 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun connector 4 pin 1mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_JST_P1.0mm_Horizontal_SMD_1_1"
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -3.81 3.81) (xy -3.81 5.08) (xy 3.81 5.08) (xy 3.81 -7.62) (xy -3.81 -7.62)
-						(xy -3.81 -6.35) (xy -1.27 -6.35) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 0.635 5.08)
-					(end 1.905 4.445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.635 -6.985)
-					(end 1.905 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD"
 			(pin_numbers
 				(hide yes)
@@ -3124,6 +2932,257 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-Jumper:SolderJumper_3_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Jumper:Jumper_3_NO"
+				(at 0.254 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3829,6 +3888,12 @@
 		(uuid "32586698-7ce4-4c2b-ab65-496acdd9624f")
 	)
 	(junction
+		(at 182.88 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b03ad57-cf72-4405-a8b7-14efb2b352d9")
+	)
+	(junction
 		(at 50.8 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3839,6 +3904,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "570f6470-5ec3-4fc2-8652-8169188e27b9")
+	)
+	(junction
+		(at 179.07 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8401106c-c15c-4a9d-9cd1-d6fd9cc20215")
 	)
 	(junction
 		(at 36.83 40.64)
@@ -3896,6 +3967,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 104.14) (xy 179.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cefc0d-0e47-4038-b2f0-562f5955091e")
+	)
+	(wire
+		(pts
+			(xy 182.88 116.84) (xy 182.88 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218b9d45-f706-4034-aa54-5dc091e5205e")
+	)
+	(wire
+		(pts
 			(xy 21.59 54.61) (xy 39.37 54.61)
 		)
 		(stroke
@@ -3913,6 +4004,16 @@
 			(type default)
 		)
 		(uuid "3cde06cc-f9ac-4d5c-96bd-a46c97bdfb50")
+	)
+	(wire
+		(pts
+			(xy 176.53 116.84) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbd0361-8fc5-47f8-a721-a2e4b6d82699")
 	)
 	(wire
 		(pts
@@ -4006,6 +4107,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 104.14) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc44eb2-246d-4693-aa28-98cffc5cb0b5")
+	)
+	(wire
+		(pts
 			(xy 149.86 33.02) (xy 148.59 33.02)
 		)
 		(stroke
@@ -4013,6 +4124,16 @@
 			(type default)
 		)
 		(uuid "a010a20e-32e7-473b-b699-7498d8754602")
+	)
+	(wire
+		(pts
+			(xy 179.07 104.14) (xy 185.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8555fc-d6b2-4603-8a7d-b67137e85b74")
 	)
 	(wire
 		(pts
@@ -4056,6 +4177,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 116.84) (xy 189.23 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2a9232-be19-43c9-82e7-f3d48c88f57f")
+	)
+	(wire
+		(pts
 			(xy 26.67 50.8) (xy 26.67 53.34)
 		)
 		(stroke
@@ -4073,16 +4204,6 @@
 			(type default)
 		)
 		(uuid "fe422d78-dea0-4b33-ba09-d235dbf1bba9")
-	)
-	(label "Pad1"
-		(at 76.2 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0118061c-3afa-403a-9d88-6c5a8f4dd5e2")
 	)
 	(label "PPGND12"
 		(at 203.2 147.32 270)
@@ -4143,16 +4264,6 @@
 			(justify right bottom)
 		)
 		(uuid "04cd10f6-dec2-4a16-8841-6f27216e0789")
-	)
-	(label "L2P"
-		(at 152.4 171.45 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06071614-b649-47e2-9176-06cf7396d9e7")
 	)
 	(label "PPVCC1"
 		(at 219.71 66.04 90)
@@ -4304,16 +4415,6 @@
 		)
 		(uuid "17d29aa5-368d-4140-9c94-09a6eaf01cb3")
 	)
-	(label "minus"
-		(at 17.78 165.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1939bc5b-1c69-4b30-8f56-0043d1086426")
-	)
 	(label "PPVCC22"
 		(at 228.6 99.06 0)
 		(effects
@@ -4384,6 +4485,16 @@
 		)
 		(uuid "21033086-39ae-4742-aab7-e807302f75d6")
 	)
+	(label "Pad4"
+		(at 106.68 181.61 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25a4e1b3-e3d6-4e1e-83b8-c5df7656b588")
+	)
 	(label "Xout"
 		(at 90.17 41.91 180)
 		(effects
@@ -4423,6 +4534,16 @@
 			(justify right bottom)
 		)
 		(uuid "2ec7cdcd-d28b-47b2-a678-6f25ec68ce68")
+	)
+	(label "L1P"
+		(at 149.86 171.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34296618-8794-45c3-be1c-02c28721bf96")
 	)
 	(label "L"
 		(at 62.23 160.02 270)
@@ -4584,6 +4705,16 @@
 		)
 		(uuid "4a2e9ab3-da69-4fe5-84d2-8765dc62082d")
 	)
+	(label "minus"
+		(at 20.32 165.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dd017c0-3e3d-4f17-a15f-731f56e287ed")
+	)
 	(label "Y"
 		(at 236.22 138.43 180)
 		(effects
@@ -4644,16 +4775,6 @@
 		)
 		(uuid "52460ccb-7065-4cf2-a9af-7ea5a368b9f5")
 	)
-	(label "PPGND"
-		(at 160.02 133.35 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5295f19e-2718-4a93-8a7a-54351597ec84")
-	)
 	(label "Yout"
 		(at 63.5 58.42 0)
 		(effects
@@ -4693,16 +4814,6 @@
 			(justify right bottom)
 		)
 		(uuid "57a67739-a02f-4c02-93ac-721777cfea11")
-	)
-	(label "Pad3"
-		(at 105.41 185.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5840a487-1b07-4308-85dc-94136a2080ab")
 	)
 	(label "L2P2"
 		(at 138.43 167.64 270)
@@ -4744,16 +4855,6 @@
 		)
 		(uuid "5aa9bd76-bcc2-4049-93a0-4daeaae8143b")
 	)
-	(label "Pad4"
-		(at 105.41 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5dd78387-520f-484f-95ff-6ec6a2cdee7e")
-	)
 	(label "RST1"
 		(at 39.37 45.72 180)
 		(effects
@@ -4794,16 +4895,6 @@
 		)
 		(uuid "640cf085-25ad-4667-9eee-6b278d7bcf88")
 	)
-	(label "Btn_-"
-		(at 182.88 80.01 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64354d2a-abf7-4b67-a318-f3e37e435857")
-	)
 	(label "PP42"
 		(at 222.25 147.32 180)
 		(effects
@@ -4843,6 +4934,26 @@
 			(justify left bottom)
 		)
 		(uuid "693f3272-103d-4dc7-bfb7-88229237ab95")
+	)
+	(label "SP3"
+		(at 17.78 165.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6980dabe-b12f-4e90-a6cb-69d2c1f250e6")
+	)
+	(label "TB_in"
+		(at 78.74 135.89 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a0370e4-295e-4289-8c91-10d0282f86fd")
 	)
 	(label "PPGND"
 		(at 222.25 66.04 90)
@@ -4974,6 +5085,16 @@
 		)
 		(uuid "7798381f-5da0-4496-b4c1-103c54d55d6f")
 	)
+	(label "Pad2"
+		(at 83.82 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "780347e8-33f1-434f-b884-e8ce34a7c9ef")
+	)
 	(label "Pad4"
 		(at 52.07 109.22 270)
 		(effects
@@ -5083,16 +5204,6 @@
 			(justify left bottom)
 		)
 		(uuid "8db5b6e3-a722-478d-954c-de5a5a39d7d7")
-	)
-	(label "SP3"
-		(at 20.32 165.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ebffccd-e364-4808-baad-3658ae49ce2e")
 	)
 	(label "D"
 		(at 257.81 137.16 180)
@@ -5224,6 +5335,16 @@
 		)
 		(uuid "a0e281a8-2ce4-4ac0-ba7b-3b0e621c0acb")
 	)
+	(label "TB_in"
+		(at 88.9 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3e1b1c3-4bb1-4c47-8d34-e93c413c83b8")
+	)
 	(label "plus"
 		(at 45.72 22.86 270)
 		(effects
@@ -5264,6 +5385,16 @@
 		)
 		(uuid "a6d55d4f-afcb-44d9-bcfd-92df7520f504")
 	)
+	(label "Btn_SP3"
+		(at 182.88 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a862e1c4-f8e3-4de8-991d-89a88d01d1be")
+	)
 	(label "L2"
 		(at 73.66 187.96 180)
 		(effects
@@ -5294,16 +5425,6 @@
 		)
 		(uuid "af7e3241-3204-48e2-8605-85dcf9cd9eec")
 	)
-	(label "L1P"
-		(at 154.94 171.45 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afa90a07-343c-4226-bc43-f7a6876f755e")
-	)
 	(label "PPGND22"
 		(at 210.82 107.95 90)
 		(effects
@@ -5313,6 +5434,16 @@
 			(justify left bottom)
 		)
 		(uuid "b12e057f-11e4-4866-86c8-45c7a4f3999c")
+	)
+	(label "R2P"
+		(at 132.08 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1a73847-de9b-43a0-a18f-c03ea6b9add8")
 	)
 	(label "PP1"
 		(at 212.09 49.53 180)
@@ -5394,6 +5525,16 @@
 		)
 		(uuid "bfc36d19-b9cc-4632-8b33-27f7d59cb4d7")
 	)
+	(label "TB_in2"
+		(at 116.84 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0471746-8ec9-434e-bc2e-0c9bc5fd2470")
+	)
 	(label "PPVCC1"
 		(at 245.11 71.12 180)
 		(effects
@@ -5403,6 +5544,16 @@
 			(justify right bottom)
 		)
 		(uuid "c070e1ad-d526-4fa2-a848-16b6cb09e58c")
+	)
+	(label "L2P"
+		(at 147.32 171.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c220b5fd-ceb7-4460-ab76-e3d58282efa1")
 	)
 	(label "A3"
 		(at 63.5 66.04 0)
@@ -5484,16 +5635,6 @@
 		)
 		(uuid "c737aee2-75bf-4846-aa46-845f204ec270")
 	)
-	(label "R1P"
-		(at 139.7 110.49 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7897397-e7aa-426a-ad75-5e9df54eb2f0")
-	)
 	(label "PP1"
 		(at 198.12 138.43 180)
 		(effects
@@ -5544,6 +5685,16 @@
 		)
 		(uuid "d08d379a-39d5-4c35-ab36-410a45cac4d2")
 	)
+	(label "Pad3"
+		(at 109.22 181.61 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0aa8f96-e54c-43e8-b1b8-ab00af61244b")
+	)
 	(label "L"
 		(at 246.38 146.05 180)
 		(effects
@@ -5564,6 +5715,26 @@
 		)
 		(uuid "d67666ee-65db-4db6-941c-89f039641cc9")
 	)
+	(label "R1P"
+		(at 134.62 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da8a25a8-cd95-4a24-a0fe-f43d827e8dff")
+	)
+	(label "Pad1"
+		(at 86.36 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dabc0049-ece5-4c70-bf41-ca1f936bdff8")
+	)
 	(label "RST2"
 		(at 38.1 125.73 180)
 		(effects
@@ -5573,16 +5744,6 @@
 			(justify right bottom)
 		)
 		(uuid "dbe9d6fc-d510-4ede-8257-da6cba7d0616")
-	)
-	(label "Btn_SP3"
-		(at 185.42 80.01 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddbd9db3-d21b-4989-b043-de4310e1afc1")
 	)
 	(label "PPVCC2"
 		(at 222.25 120.65 180)
@@ -5644,16 +5805,6 @@
 		)
 		(uuid "e1ee46bc-a01e-4c0a-937e-77058df92b83")
 	)
-	(label "R2P"
-		(at 137.16 110.49 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e31e1b72-c760-4e2a-a556-ec653396a92e")
-	)
 	(label "PP22"
 		(at 238.76 60.96 180)
 		(effects
@@ -5683,16 +5834,6 @@
 			(justify right bottom)
 		)
 		(uuid "e59d080e-931f-49a6-b59a-5d086ae15790")
-	)
-	(label "Pad2"
-		(at 76.2 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e69b4a5f-bf6e-4bc2-a390-8eb80af3c1f3")
 	)
 	(label "plus"
 		(at 63.5 48.26 0)
@@ -5753,6 +5894,26 @@
 			(justify right bottom)
 		)
 		(uuid "eb103b81-9e83-403a-b58b-4cfd8a2ebcc0")
+	)
+	(label "Btn_-"
+		(at 185.42 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb194340-37a4-4266-aa4a-5d464a7fe2ec")
+	)
+	(label "TB_in2"
+		(at 124.46 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebe6fe0a-1567-4410-a92f-13d98566e984")
 	)
 	(label "R2"
 		(at 46.99 85.09 180)
@@ -5816,28 +5977,6 @@
 	)
 	(global_label "VCC_LSP"
 		(shape input)
-		(at 149.86 171.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01e376b5-6fff-47dc-8b8c-60dd89f14c59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 160.361 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC_LSP"
-		(shape input)
 		(at 160.02 140.97 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5849,6 +5988,28 @@
 		(uuid "06980f0b-4528-4f7d-9c22-e9a5e33c9d3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 171.109 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_LSP"
+		(shape input)
+		(at 154.94 171.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06d02bb2-a9d0-45ed-b98a-2db2803b99ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 160.361 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,50 +6129,6 @@
 			)
 		)
 	)
-	(global_label "SCL2"
-		(shape input)
-		(at 83.82 146.05 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1407d1dc-1f2e-4f04-9cc4-1f4535bf3857")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 138.3477 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC2"
-		(shape input)
-		(at 88.9 146.05 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14f2497d-37e0-4ee0-b8ea-b92c06c8ee2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 138.2267 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA2"
 		(shape input)
 		(at 54.61 160.02 270)
@@ -6030,6 +6147,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA2"
+		(shape input)
+		(at 83.82 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d910dbc-f487-4747-a48d-5fce9455e8e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 138.2872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6232,28 +6371,6 @@
 			)
 		)
 	)
-	(global_label "SDA2"
-		(shape input)
-		(at 86.36 146.05 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d7ea4b7-dfe9-4191-b824-43cbfaf1c861")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 138.2872 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND_RSP2"
 		(shape input)
 		(at 129.54 90.17 180)
@@ -6272,50 +6389,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND_RSP"
-		(shape input)
-		(at 132.08 110.49 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30ccc6ca-9be6-4c22-b269-809b8c9e4768")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 98.9172 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND_LSP"
-		(shape input)
-		(at 147.32 171.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39673165-2a35-48d0-a268-9a2b09135d11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 160.1191 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6408,6 +6481,50 @@
 			)
 		)
 	)
+	(global_label "VCC2"
+		(shape input)
+		(at 22.86 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "409d1d3a-e0f3-4d2d-b6db-ce7ebc20ec03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 157.2767 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL2"
+		(shape input)
+		(at 80.01 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43a3a531-70c0-4ca0-b837-e39561718998")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.3077 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 242.57 40.64 0)
@@ -6421,6 +6538,50 @@
 		(uuid "43c921eb-f148-42c2-8b1b-30424af3424b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 249.1838 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA2"
+		(shape input)
+		(at 80.01 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4714cb56-1db5-47c0-aa04-a6b0957b84b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.2472 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL2"
+		(shape input)
+		(at 86.36 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48d442ae-df9a-484a-aade-114a60900580")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 138.3477 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,6 +6701,72 @@
 			)
 		)
 	)
+	(global_label "VCC2"
+		(shape input)
+		(at 111.76 181.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58d5b428-6c7d-4ee9-b612-1afb33a49c8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 173.7867 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SL_VCC"
+		(shape input)
+		(at 187.96 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c75e7e6-4fc9-45b1-baf4-f0802ab5fa51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 70.191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_LSP"
+		(shape input)
+		(at 152.4 171.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65149c8e-d0e0-4aa7-bc23-0aa6b1f7b8d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 160.1191 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 161.29 24.13 0)
@@ -6606,28 +6833,6 @@
 			)
 		)
 	)
-	(global_label "VCC2"
-		(shape input)
-		(at 105.41 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7159e98f-123c-4a5b-ad40-c582c7077630")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.5867 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCC_RSP"
 		(shape input)
 		(at 152.4 106.68 270)
@@ -6646,28 +6851,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC2"
-		(shape input)
-		(at 25.4 165.1 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74be199b-55ef-455a-bedf-30dda6dc3b2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 157.2767 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6716,6 +6899,28 @@
 			)
 		)
 	)
+	(global_label "VCC_RSP"
+		(shape input)
+		(at 139.7 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7db13cb6-2884-4ad8-bb7e-aa5ad788d5da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 99.1591 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 114.3 30.48 90)
@@ -6734,6 +6939,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 168.91 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "850d93a3-692a-4188-a8bb-0a32957f4f24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.2962 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6870,28 +7097,6 @@
 			)
 		)
 	)
-	(global_label "VCC_RSP"
-		(shape input)
-		(at 134.62 110.49 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98cd4135-9e84-40b7-8e7f-15bf7d4c0ed5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 99.1591 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCC_LSP2"
 		(shape input)
 		(at 165.1 152.4 0)
@@ -6905,6 +7110,28 @@
 		(uuid "99f77e7d-8096-4b98-a1ff-41244621b125")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.3985 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3v2"
+		(shape input)
+		(at 81.28 133.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a0f14b9-2f21-4f8a-b5c3-ab6334c7feb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 125.1639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,6 +7185,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 195.58 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fff9fce-39a6-4190-939e-077a4c3f703d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.4357 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC2"
 		(shape input)
 		(at 39.37 109.22 270)
@@ -6998,6 +7247,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V1"
+		(shape input)
+		(at 127 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a444d596-cc7a-4223-83f7-48adf85f7639")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.3071 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7090,6 +7361,50 @@
 			)
 		)
 	)
+	(global_label "GND_RSP"
+		(shape input)
+		(at 137.16 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0497738-5e17-457a-b6da-f5abfa84be44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 98.9172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC2"
+		(shape input)
+		(at 171.45 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6db68c3-9f04-48ae-aa57-9ce41caa7061")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.6267 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC2"
 		(shape input)
 		(at 149.86 33.02 0)
@@ -7108,6 +7423,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC2"
+		(shape input)
+		(at 76.2 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbb55f22-b91a-448f-bafd-8a9d7dbb8d84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.3767 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7180,6 +7517,28 @@
 	)
 	(global_label "VCC"
 		(shape input)
+		(at 121.92 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "beb517b8-d791-4bc7-80d7-abb40c467316")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.3062 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
 		(at 46.99 77.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7222,6 +7581,28 @@
 			)
 		)
 	)
+	(global_label "3.3V1"
+		(shape input)
+		(at 179.07 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2c7cbfd-b112-4a6e-aa58-3de5f5b5874e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 94.5629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC_RSP2"
 		(shape input)
 		(at 149.86 90.17 0)
@@ -7235,6 +7616,28 @@
 		(uuid "c3dbbcef-17de-4b5a-b17b-dba6764ac8d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4004 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3v2"
+		(shape input)
+		(at 182.88 115.57 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7553f7e-97db-4a3f-8bcb-7d81338756eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 107.3839 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,28 +7665,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SL_VCC"
-		(shape input)
-		(at 190.5 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d238b611-9a07-4274-ba29-3b5c7e4f9cae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.319 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7422,22 +7803,22 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 76.2 83.82 180)
+		(at 88.9 86.36 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e1425b97-906f-4c08-8da7-00c960d2624e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.5862 83.82 0)
+			(at 88.9 79.7462 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7482,28 +7863,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 116.84 30.48 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eec42c3e-23d7-433c-8eab-51d776e2d6ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 23.8662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7562,7 +7921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01d79485-4a4c-4d2e-b1b4-5cb603b0d05a")
-		(property "Reference" "SW18"
+		(property "Reference" "RST2"
 			(at 156.21 16.51 0)
 			(effects
 				(font
@@ -7632,7 +7991,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW18")
+					(reference "RST2")
 					(unit 1)
 				)
 			)
@@ -7714,7 +8073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04a021ab-1e59-4358-a44d-fc26f7e43931")
-		(property "Reference" "SW17"
+		(property "Reference" "RST1"
 			(at 143.51 25.4 0)
 			(effects
 				(font
@@ -7784,24 +8143,24 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW17")
+					(reference "RST1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
-		(at 52.07 80.01 0)
+		(lib_id "PCM_SparkFun-Connector:Conn_01x03_JST_P1.0mm_Horizontal_SMD")
+		(at 109.22 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "088b82d1-bef4-4c66-9702-8fb5f5dea7da")
-		(property "Reference" "J2"
-			(at 57.15 80.0099 0)
+		(uuid "04bf0e0a-135d-450e-81eb-12c40ca930a9")
+		(property "Reference" "J11"
+			(at 114.3 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,8 +8168,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 57.15 82.5499 0)
+		(property "Value" "JST_1mm_3"
+			(at 114.3 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,8 +8177,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 51.816 91.694 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 109.22 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,8 +8186,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
-			(at 51.816 94.234 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 109.22 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,8 +8195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single row 4 pin connector"
-			(at 51.816 96.774 0)
+		(property "Description" "3 Pin 2mm JST Connector"
+			(at 109.22 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,31 +8204,95 @@
 				(hide yes)
 			)
 		)
-		(property "SparkFun" "PRT-09916"
-			(at 52.07 99.314 0)
+		(property "PROD_ID" "CONN-10492"
+			(at 109.22 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "ad2cb46d-d8c4-4e65-bf22-fdff26745d3e")
 		)
 		(pin "1"
-			(uuid "53931c3f-6702-4bcb-9fb1-cfc7ec3f51bd")
+			(uuid "7d411209-150e-41fc-b9da-b12bd28c4911")
 		)
 		(pin "2"
-			(uuid "ab730ca6-98d2-43fa-a37c-2ce3248fb8bd")
+			(uuid "a14b3a16-4e6b-40b9-a00e-979828fa553c")
 		)
 		(pin "3"
-			(uuid "a206d842-6c05-4e1d-a6ed-f6337e33d079")
+			(uuid "c8ad710c-6f88-41f6-a3bb-5d396833ee43")
 		)
 		(instances
-			(project ""
+			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J2")
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0906faa8-a3de-41b6-9d2e-54f6eda71c61")
+		(property "Reference" "#PWR033"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 80.0099 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60139da2-d7be-4637-9009-95df3020f9ac")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7901,7 +8324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 200.66 143.002 0)
 			(effects
 				(font
@@ -8060,7 +8483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1efc5d5f-bfeb-44e9-a6fc-a092f9a00648")
-		(property "Reference" "SW13"
+		(property "Reference" "PAD1"
 			(at 217.17 41.91 0)
 			(effects
 				(font
@@ -8130,7 +8553,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW13")
+					(reference "PAD1")
 					(unit 1)
 				)
 			)
@@ -8162,7 +8585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 224.79 151.892 0)
 			(effects
 				(font
@@ -8208,6 +8631,83 @@
 			(project ""
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0402")
+		(at 173.99 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "201fbdd2-3653-4568-9ec1-dcc966c0c8cd")
+		(property "Reference" "R24"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 173.99 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-14342"
+			(at 173.99 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e5be83f-cd2b-468c-a73a-33931b2ee884")
+		)
+		(pin "1"
+			(uuid "a46fe58a-5a77-43eb-a5a0-158b197d8098")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -8321,7 +8821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "223f3f2b-f9c1-42b8-91c9-bcb3fc9df132")
-		(property "Reference" "U4"
+		(property "Reference" "RT1"
 			(at 139.7 82.55 90)
 			(effects
 				(font
@@ -8376,7 +8876,7 @@
 		(instances
 			(project ""
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "U4")
+					(reference "RT1")
 					(unit 1)
 				)
 			)
@@ -8474,7 +8974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 186.69 151.892 0)
 			(effects
 				(font
@@ -8551,7 +9051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 248.92 160.782 0)
 			(effects
 				(font
@@ -8612,7 +9112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "274b2389-7c82-4c70-a9a9-45de89cdc4e8")
-		(property "Reference" "SW4"
+		(property "Reference" "A1"
 			(at 250.19 41.91 0)
 			(effects
 				(font
@@ -8682,7 +9182,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW4")
+					(reference "A1")
 					(unit 1)
 				)
 			)
@@ -8780,7 +9280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 224.79 143.002 0)
 			(effects
 				(font
@@ -8857,7 +9357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 248.92 141.732 0)
 			(effects
 				(font
@@ -9052,7 +9552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fc40e18-c8a6-4266-b358-cc15e474d3aa")
-		(property "Reference" "J13"
+		(property "Reference" "VIN2"
 			(at 29.21 27.9399 0)
 			(effects
 				(font
@@ -9106,7 +9606,7 @@
 		(instances
 			(project ""
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J13")
+					(reference "VIN2")
 					(unit 1)
 				)
 			)
@@ -9252,6 +9752,83 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0402")
+		(at 171.45 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3344aac7-7e91-46b9-b93d-545561f9621e")
+		(property "Reference" "R12"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 171.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 171.45 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 170.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-14342"
+			(at 171.45 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "916cad8f-4e69-49ff-a9af-8d7bf9ed4123")
+		)
+		(pin "1"
+			(uuid "2559a4b0-3a44-4a9f-86b5-553d5f261a79")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 243.84 63.5 0)
 		(unit 1)
@@ -9334,7 +9911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "341e903c-1a96-497d-9cb8-fcc828be5508")
-		(property "Reference" "SW14"
+		(property "Reference" "SP2"
 			(at 194.31 62.23 0)
 			(effects
 				(font
@@ -9404,7 +9981,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW14")
+					(reference "SP2")
 					(unit 1)
 				)
 			)
@@ -9502,7 +10079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 213.36 162.052 0)
 			(effects
 				(font
@@ -9579,7 +10156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 238.76 143.002 0)
 			(effects
 				(font
@@ -9713,7 +10290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38778811-00bc-4b5f-a58b-f18bfbe15f4f")
-		(property "Reference" "SW7"
+		(property "Reference" "SP1"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -9783,7 +10360,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW7")
+					(reference "SP1")
 					(unit 1)
 				)
 			)
@@ -9815,7 +10392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 213.36 151.892 0)
 			(effects
 				(font
@@ -9868,7 +10445,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 80.01 180)
+		(at 190.5 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9877,7 +10454,7 @@
 		(fields_autoplaced yes)
 		(uuid "38bdbdf1-e081-4a64-abac-29569f07d163")
 		(property "Reference" "#PWR08"
-			(at 187.96 73.66 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,7 +10463,7 @@
 			)
 		)
 		(property "Value" "SL_GND"
-			(at 187.96 75.5629 0)
+			(at 190.5 75.5629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +10471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 80.01 0)
+			(at 190.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +10480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 80.01 0)
+			(at 190.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +10489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 80.01 0)
+			(at 190.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +10535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 224.79 162.052 0)
 			(effects
 				(font
@@ -10010,6 +10587,77 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Jumper:SolderJumper_3_Open")
+		(at 124.46 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b5251ab-c86d-45e6-87c0-2133bf06c6b4")
+		(property "Reference" "JP2"
+			(at 124.46 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 124.46 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Jumper:Jumper_3_NO"
+			(at 124.714 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99e9fc1d-faea-4077-a98f-684f3119bf55")
+		)
+		(pin "3"
+			(uuid "ce232709-c29e-4eae-8e19-5cdbd55ddab4")
+		)
+		(pin "2"
+			(uuid "7120dc6f-c6cb-4196-a6f1-f1a593bc9c9a")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
 		(at 278.13 124.46 0)
 		(unit 1)
@@ -10019,20 +10667,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d6f767c-58e4-4617-a4ad-7f6e28fba7c2")
-		(property "Reference" "J19"
-			(at 280.67 125.73 90)
+		(property "Reference" "MPU1"
+			(at 279.4 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x08_Socket"
-			(at 283.21 125.73 90)
+			(at 279.4 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
@@ -10089,7 +10739,7 @@
 		(instances
 			(project ""
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J19")
+					(reference "MPU1")
 					(unit 1)
 				)
 			)
@@ -10121,7 +10771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 213.36 143.002 0)
 			(effects
 				(font
@@ -10198,7 +10848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 238.76 151.892 0)
 			(effects
 				(font
@@ -10244,6 +10894,91 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 111.76 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40c254f3-bf4b-4914-846b-5c5aa43cd6d0")
+		(property "Reference" "PAD4"
+			(at 118.11 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 118.11 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+			(at 100.076 186.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 97.536 186.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 94.996 186.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 92.456 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fb7ada5d-bc33-4638-8ff3-a9e81adcf50a")
+		)
+		(pin "1"
+			(uuid "9d4fa68d-8d2d-4539-a3b5-a50f2d11e9b3")
+		)
+		(pin "2"
+			(uuid "f9cdd8f2-9cd8-48c3-aabf-9ae1eef8435e")
+		)
+		(pin "3"
+			(uuid "da7d4905-81f2-489f-8a24-afc069536d2b")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "PAD4")
 					(unit 1)
 				)
 			)
@@ -10321,6 +11056,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 88.9 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44a916e4-b2df-42b6-a0f6-42eea18b7dfa")
+		(property "Reference" "PAD3"
+			(at 95.25 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 95.25 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+			(at 77.216 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 74.676 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 72.136 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 69.596 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9036753d-1ad8-459f-adf7-ed06a6512baf")
+		)
+		(pin "1"
+			(uuid "00a5a55c-108c-45a7-a0b5-6c9a9335b72c")
+		)
+		(pin "2"
+			(uuid "73225c69-fb9e-4726-bc6f-48a964946b35")
+		)
+		(pin "3"
+			(uuid "e514372d-603d-4081-8aea-28f51fc50af4")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "PAD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Magnetic:DRV5033FAxLPG")
 		(at 154.94 154.94 270)
 		(unit 1)
@@ -10330,7 +11150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "452553fc-dd01-4c2e-b352-1632e34685e7")
-		(property "Reference" "U3"
+		(property "Reference" "LT1"
 			(at 154.94 144.78 90)
 			(effects
 				(font
@@ -10385,7 +11205,7 @@
 		(instances
 			(project ""
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "U3")
+					(reference "LT1")
 					(unit 1)
 				)
 			)
@@ -10459,7 +11279,73 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P1.0mm_Horizontal_SMD")
+		(lib_id "power:GND")
+		(at 199.39 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ea48ea-3051-4868-8ee3-5b2d7fd17188")
+		(property "Reference" "#PWR034"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9086749-8e6c-42dc-96d0-e2facf5c30fc")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
 		(at 226.06 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10467,8 +11353,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "49f8a503-4d36-464c-8fc0-eacda0eaba60")
-		(property "Reference" "J22"
+		(uuid "4d5cd92e-1fde-491d-8ce2-efb0ce991f6b")
+		(property "Reference" "PAD_B2"
 			(at 232.41 110.4899 90)
 			(effects
 				(font
@@ -10477,7 +11363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_1mm_4"
+		(property "Value" "Conn_01x04"
 			(at 232.41 113.0299 90)
 			(effects
 				(font
@@ -10486,7 +11372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
 			(at 214.376 111.506 0)
 			(effects
 				(font
@@ -10495,7 +11381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
 			(at 211.836 111.506 0)
 			(effects
 				(font
@@ -10513,7 +11399,7 @@
 				(hide yes)
 			)
 		)
-		(property "SparkFun" "CONN-10310"
+		(property "SparkFun" "PRT-09916"
 			(at 206.756 111.76 0)
 			(effects
 				(font
@@ -10522,189 +11408,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "127130dc-54b9-4dc3-9beb-7219e1d025e1")
+		(pin "4"
+			(uuid "38514d9d-76ae-4843-b636-ca1a5b26d26a")
 		)
 		(pin "1"
-			(uuid "fe98b6ba-43e0-47e3-bc95-0e532521999b")
+			(uuid "d45cf529-a317-4b72-b7b1-9c3059214276")
 		)
 		(pin "2"
-			(uuid "13f2b223-95b1-4aba-8704-82d2e6528f59")
-		)
-		(pin "4"
-			(uuid "72a93013-bed0-4201-bb60-e0ee4822131a")
-		)
-		(instances
-			(project ""
-				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
-		(at 78.74 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c4e28d2-1256-47c2-8800-0fa94316735f")
-		(property "Reference" "J9"
-			(at 83.82 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 83.82 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 78.486 194.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
-			(at 78.486 197.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single row 4 pin connector"
-			(at 78.486 199.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SparkFun" "PRT-09916"
-			(at 78.74 202.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a2a6bf26-d5de-452b-a0fb-62bcba7bfa54")
-		)
-		(pin "1"
-			(uuid "ae222359-63f2-4d7d-80b2-bd3172dbdf78")
-		)
-		(pin "2"
-			(uuid "b0451621-26b9-44b6-98d0-e5f2ec071ea0")
+			(uuid "3fcb2b88-cc6d-4ba0-897b-8639007038ce")
 		)
 		(pin "3"
-			(uuid "14cf2e43-b012-45ef-be8a-a412fac99feb")
+			(uuid "fced176c-e4e9-47ee-8dbe-03a81f117aee")
 		)
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x03_JST_P1.0mm_Horizontal_SMD")
-		(at 109.22 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d58c184-4eb8-42ca-992c-39898a5d2383")
-		(property "Reference" "J11"
-			(at 114.3 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_1mm_3"
-			(at 114.3 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 109.22 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3 Pin 2mm JST Connector"
-			(at 109.22 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CONN-10492"
-			(at 109.22 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d0d95b40-4a5c-49dc-a2f2-865bae219770")
-		)
-		(pin "1"
-			(uuid "94f1e412-3677-4716-926a-24487b20d0c4")
-		)
-		(pin "3"
-			(uuid "f0e2ae9e-fb0d-4296-a793-1594fb794251")
-		)
-		(instances
-			(project ""
-				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J11")
+					(reference "PAD_B2")
 					(unit 1)
 				)
 			)
@@ -10720,7 +11439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5245695d-d539-41b7-9061-8e028418d956")
-		(property "Reference" "J4"
+		(property "Reference" "I2C1"
 			(at 86.36 66.0399 0)
 			(effects
 				(font
@@ -10786,7 +11505,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J4")
+					(reference "I2C1")
 					(unit 1)
 				)
 			)
@@ -10868,7 +11587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a4f7cf6-53da-4f89-99f1-f320b1df51f7")
-		(property "Reference" "SW10"
+		(property "Reference" "DWN1"
 			(at 182.88 41.91 0)
 			(effects
 				(font
@@ -10938,7 +11657,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW10")
+					(reference "DWN1")
 					(unit 1)
 				)
 			)
@@ -10954,7 +11673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0de95c-09de-468f-8a33-3630adacd740")
-		(property "Reference" "SW2"
+		(property "Reference" "X1"
 			(at 237.49 33.02 0)
 			(effects
 				(font
@@ -11024,7 +11743,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW2")
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -11236,6 +11955,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 152.4 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ffe2030-1b6d-4f1e-9114-4c9d37088fa1")
+		(property "Reference" "L_SHOUL1"
+			(at 158.75 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 158.75 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+			(at 140.716 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 138.176 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 135.636 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 133.096 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f2ddbc7c-a6c3-43af-817e-adf0127b2b1f")
+		)
+		(pin "1"
+			(uuid "4a384295-4f83-41cb-b029-04db6847471e")
+		)
+		(pin "2"
+			(uuid "d5951e93-b02c-40ce-8d6b-ccb7542d90e6")
+		)
+		(pin "3"
+			(uuid "43f8a6bd-976d-4b0d-890b-6cbb972890f8")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "L_SHOUL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 146.05 270)
 		(unit 1)
@@ -11369,6 +12173,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 22.86 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68891b0c-2420-4aef-8219-17bd9a7527b7")
+		(property "Reference" "SP_L1"
+			(at 29.21 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 29.21 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+			(at 11.176 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 8.636 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 6.096 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 3.556 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0df07c09-7c4d-44fe-a5ce-f730a64fa440")
+		)
+		(pin "1"
+			(uuid "5252c80f-2fe7-4014-b82e-a7f61935120d")
+		)
+		(pin "2"
+			(uuid "f5ec8159-047e-4829-a1b2-92b4df3bb332")
+		)
+		(pin "3"
+			(uuid "883ae752-482d-4762-8b54-9ae031430d8e")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "SP_L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Resistor:1k_0402")
 		(at 248.92 146.05 0)
 		(unit 1)
@@ -11394,7 +12283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 248.92 150.622 0)
 			(effects
 				(font
@@ -11440,6 +12329,91 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 78.74 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b821695-97a4-46f6-a955-b98c88044e1d")
+		(property "Reference" "J9"
+			(at 83.82 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 83.82 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+			(at 78.486 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 78.486 197.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 78.486 199.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 78.74 202.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d3827ab7-3735-47aa-94d4-8a8a100c8a76")
+		)
+		(pin "1"
+			(uuid "c34d5175-76d4-402c-b5d7-e4576b4ba148")
+		)
+		(pin "2"
+			(uuid "87009cae-9c0d-4be9-85f7-8c5c188841da")
+		)
+		(pin "3"
+			(uuid "d5976a94-748d-4ccd-929f-53f2d2d1db9d")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11580,6 +12554,83 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0402")
+		(at 196.85 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dd571ae-f0db-4b23-99e8-4969f4fdf578")
+		(property "Reference" "R27"
+			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 196.85 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-14342"
+			(at 196.85 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77b71303-6936-4efb-af9d-e6a98d821de2")
+		)
+		(pin "1"
+			(uuid "c6a833f6-b432-4d6e-8bd8-3cf468004412")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
 		(at 217.17 59.69 0)
 		(unit 1)
@@ -11589,7 +12640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e650c33-c96d-4ccd-8bc4-d52b48eade93")
-		(property "Reference" "SW6"
+		(property "Reference" "PAD2"
 			(at 217.17 52.07 0)
 			(effects
 				(font
@@ -11659,92 +12710,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P1.0mm_Horizontal_SMD")
-		(at 187.96 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "723577c1-23e7-4ac8-aa4d-553aa6067e15")
-		(property "Reference" "J8"
-			(at 194.31 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_1mm_4"
-			(at 194.31 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 176.276 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 173.736 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single row 4 pin connector"
-			(at 171.196 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SparkFun" "CONN-10310"
-			(at 168.656 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5df8af3c-5b0f-40fd-8597-ba0dcee21176")
-		)
-		(pin "2"
-			(uuid "77aadafa-a561-4b38-b6a8-4543d33d2923")
-		)
-		(pin "3"
-			(uuid "e0f4518b-5625-4a66-be1d-b86ce98970ed")
-		)
-		(pin "1"
-			(uuid "cbbc039d-dd6f-4cc3-b16b-35b37f4b5a5d")
-		)
-		(instances
-			(project "contProto"
-				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J8")
+					(reference "PAD2")
 					(unit 1)
 				)
 			)
@@ -11903,6 +12869,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 137.16 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "792433ca-db68-44f3-9ddc-1210b47096ca")
+		(property "Reference" "R_SHOUL1"
+			(at 143.51 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 143.51 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+			(at 125.476 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 122.936 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 120.396 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 117.856 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c5a22a6c-1443-46c5-baaf-ffa23a6cb2c7")
+		)
+		(pin "1"
+			(uuid "cc628881-d6f8-4324-b634-51e2fe063591")
+		)
+		(pin "2"
+			(uuid "371cf05a-e936-4481-bd6c-9b7ebf8db356")
+		)
+		(pin "3"
+			(uuid "0934ace4-1fcf-4103-8f3f-ed1e99334190")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "R_SHOUL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 26.67 184.15 0)
 		(unit 1)
@@ -11912,7 +12963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79cdd5e5-bf8d-4c18-ac75-868d8fd911cb")
-		(property "Reference" "J14"
+		(property "Reference" "VIN1"
 			(at 27.94 184.1499 0)
 			(effects
 				(font
@@ -11966,7 +13017,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J14")
+					(reference "VIN1")
 					(unit 1)
 				)
 			)
@@ -11998,7 +13049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 200.66 162.052 0)
 			(effects
 				(font
@@ -12196,7 +13247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "874497f7-a60a-4d70-bf76-6e7309c5ad00")
-		(property "Reference" "SW9"
+		(property "Reference" "UP1"
 			(at 182.88 24.13 0)
 			(effects
 				(font
@@ -12266,92 +13317,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P1.0mm_Horizontal_SMD")
-		(at 219.71 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "877b9558-97f1-4975-97fb-a97ad65a4dc3")
-		(property "Reference" "J1"
-			(at 226.06 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_1mm_4"
-			(at 226.06 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 208.026 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 205.486 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single row 4 pin connector"
-			(at 202.946 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SparkFun" "CONN-10310"
-			(at 200.406 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e2d16a2f-6e87-4719-bd2a-22b9d35ba735")
-		)
-		(pin "2"
-			(uuid "9d0b592b-e5ed-4f2a-9d04-63a9be02f10f")
-		)
-		(pin "3"
-			(uuid "f38377ef-82c8-4675-b309-57e0e0a52b04")
-		)
-		(pin "1"
-			(uuid "185bb255-5c0d-4197-95fb-912744aac495")
-		)
-		(instances
-			(project ""
-				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J1")
+					(reference "UP1")
 					(unit 1)
 				)
 			)
@@ -12367,7 +13333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8939c368-b9d3-487e-b1a3-53c7179a4927")
-		(property "Reference" "SW1"
+		(property "Reference" "Y1"
 			(at 250.19 24.13 0)
 			(effects
 				(font
@@ -12437,7 +13403,7 @@
 		(instances
 			(project ""
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW1")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -12453,7 +13419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b3b7037-d6c9-438b-b0bd-28e0feda1850")
-		(property "Reference" "J10"
+		(property "Reference" "RUMBLE1"
 			(at 30.48 82.5499 0)
 			(effects
 				(font
@@ -12471,7 +13437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 25.4 92.71 0)
 			(effects
 				(font
@@ -12519,7 +13485,7 @@
 		(instances
 			(project ""
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J10")
+					(reference "RUMBLE1")
 					(unit 1)
 				)
 			)
@@ -12550,7 +13516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 184.15 163.322 0)
 			(effects
 				(font
@@ -12611,7 +13577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "943f8a63-7405-40e4-bad6-d2ed2a0ba6b0")
-		(property "Reference" "J5"
+		(property "Reference" "CAP1"
 			(at 109.22 50.7999 0)
 			(effects
 				(font
@@ -12665,92 +13631,7 @@
 		(instances
 			(project ""
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P1.0mm_Horizontal_SMD")
-		(at 22.86 170.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94535af5-ec21-4f52-a726-bdba063f7d95")
-		(property "Reference" "J20"
-			(at 29.21 168.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_1mm_4"
-			(at 29.21 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 11.176 169.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 8.636 169.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single row 4 pin connector"
-			(at 6.096 169.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SparkFun" "CONN-10310"
-			(at 3.556 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7214c301-1631-42a3-9fd8-13f437b96ac1")
-		)
-		(pin "2"
-			(uuid "4b32581c-d64d-415e-9f3e-069b32556c8e")
-		)
-		(pin "3"
-			(uuid "4010e83a-132c-4da8-a74f-c10763a3d479")
-		)
-		(pin "1"
-			(uuid "0263c93f-ef1c-46eb-80f2-f97dc71d6a42")
-		)
-		(instances
-			(project "contProto"
-				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J20")
+					(reference "CAP1")
 					(unit 1)
 				)
 			)
@@ -12766,7 +13647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97533411-bd12-4cff-86f7-897a7286a4be")
-		(property "Reference" "SW5"
+		(property "Reference" "PLUS1"
 			(at 248.92 87.63 0)
 			(effects
 				(font
@@ -12836,7 +13717,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW5")
+					(reference "PLUS1")
 					(unit 1)
 				)
 			)
@@ -12918,7 +13799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "991bdcef-1387-450b-b2f8-bb657f48e048")
-		(property "Reference" "J3"
+		(property "Reference" "JOY_R1"
 			(at 96.52 41.9099 0)
 			(effects
 				(font
@@ -12996,7 +13877,7 @@
 		(instances
 			(project ""
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J3")
+					(reference "JOY_R1")
 					(unit 1)
 				)
 			)
@@ -13028,7 +13909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 260.35 141.732 0)
 			(effects
 				(font
@@ -13089,7 +13970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ae8140c-6849-44b6-a2bd-34d211f2ef6d")
-		(property "Reference" "J37"
+		(property "Reference" "TRACK_B2"
 			(at 120.65 34.2899 90)
 			(effects
 				(font
@@ -13098,7 +13979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05"
+		(property "Value" "TRACK_B"
 			(at 120.65 36.8299 90)
 			(effects
 				(font
@@ -13107,7 +13988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 100.076 35.306 0)
 			(effects
 				(font
@@ -13161,7 +14042,169 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J37")
+					(reference "TRACK_B2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0402")
+		(at 191.77 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d8cf52c-06e8-4b53-abd3-c17177934360")
+		(property "Reference" "R25"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 191.77 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 190.5 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-14342"
+			(at 191.77 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23f9034e-33fd-4007-bf93-207b0b8d115a")
+		)
+		(pin "1"
+			(uuid "bf56d7b8-62b6-462c-a099-d8b1dca77820")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 187.96 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e5820b0-fa56-4757-858b-f314f32a517a")
+		(property "Reference" "SP_LB1"
+			(at 194.31 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 194.31 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+			(at 176.276 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 173.736 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 171.196 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 168.656 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bfc03c2b-7702-41ee-9e82-fc2f39428f82")
+		)
+		(pin "1"
+			(uuid "780c2df4-9996-4c92-910c-8d88220d441f")
+		)
+		(pin "2"
+			(uuid "a19e4d6a-6362-4569-b41f-f1f03f52dfdc")
+		)
+		(pin "3"
+			(uuid "8c8dcf88-d4fe-412c-8d3d-723035569625")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "SP_LB1")
 					(unit 1)
 				)
 			)
@@ -13243,7 +14286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1c70b09-4404-46ac-8f67-c79b638478a7")
-		(property "Reference" "SW11"
+		(property "Reference" "R11"
 			(at 194.31 31.75 0)
 			(effects
 				(font
@@ -13313,92 +14356,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
-		(at 137.16 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a33cfaff-ed57-47eb-81e7-a74325d5baea")
-		(property "Reference" "J16"
-			(at 143.51 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 143.51 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 125.476 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
-			(at 122.936 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single row 4 pin connector"
-			(at 120.396 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SparkFun" "PRT-09916"
-			(at 117.856 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "94c67554-76a5-40ea-95ba-6425e8c55d0e")
-		)
-		(pin "1"
-			(uuid "510133c8-6bc6-4181-8987-1a9eec7c532f")
-		)
-		(pin "2"
-			(uuid "880f948e-9a68-412e-a5c5-b0a7c29f622a")
-		)
-		(pin "3"
-			(uuid "c793f710-77da-4daf-9400-bacddf86fd22")
-		)
-		(instances
-			(project "contProto"
-				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J16")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13430,7 +14388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 186.69 143.002 0)
 			(effects
 				(font
@@ -13615,6 +14573,83 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0402")
+		(at 193.04 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5189c31-dbc8-45e1-9f99-fdcaed7e0632")
+		(property "Reference" "R26"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 193.04 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-14342"
+			(at 193.04 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08cfe93b-21fc-43a5-85ed-435e6be873b0")
+		)
+		(pin "1"
+			(uuid "842a15c9-627e-4a5a-96f7-a789ce6dc95a")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x12_Socket")
 		(at 44.45 104.14 90)
 		(unit 1)
@@ -13713,35 +14748,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x05_JST_P1.0mm_Horizontal_SMD")
-		(at 83.82 151.13 270)
+		(lib_id "power:GND")
+		(at 91.44 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b52fa387-1343-4014-881b-b43e96981d73")
-		(property "Reference" "J36"
-			(at 92.71 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 92.71 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical"
-			(at 72.136 150.876 0)
+		(uuid "b87da505-b59f-46af-af68-e4523ddd547e")
+		(property "Reference" "#PWR032"
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13749,8 +14766,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 69.596 150.876 0)
+		(property "Value" "GND"
+			(at 93.98 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13758,8 +14784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Right angle SMD polarized connector"
-			(at 67.056 150.876 0)
+		(property "Datasheet" ""
+			(at 91.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13767,8 +14793,8 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-20121"
-			(at 64.516 151.13 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13777,24 +14803,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2745fd4-2ea0-4202-a12b-812ffb894b27")
-		)
-		(pin "5"
-			(uuid "2ff30e82-6d48-41be-b897-29bdc0f9dcf7")
-		)
-		(pin "3"
-			(uuid "22100b91-0c07-4ef5-8863-7e5dd375a8af")
-		)
-		(pin "4"
-			(uuid "e28fd1f7-b4ce-439c-bd28-3b9f7303b192")
-		)
-		(pin "2"
-			(uuid "61cecba6-8d2d-4645-a334-3e7275466d56")
+			(uuid "0193aed9-9533-4578-8258-884cfd2aa5c3")
 		)
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J36")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x03_JST_P1.0mm_Horizontal_SMD")
+		(at 85.09 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8eb4c85-eccd-440f-a796-f05b2d46fa3c")
+		(property "Reference" "J18"
+			(at 90.17 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_1mm_3"
+			(at 90.17 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 85.09 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3 Pin 2mm JST Connector"
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-10492"
+			(at 85.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24e9545c-21ab-4319-a214-797a6233db93")
+		)
+		(pin "2"
+			(uuid "cfbc566e-614e-4333-9adb-acdd329f3d43")
+		)
+		(pin "3"
+			(uuid "bc4b271e-8991-4a97-8ad6-d1ddb18dbf8d")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -13861,6 +14957,158 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 219.71 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb97267e-1b8c-4e72-8a04-dc4b2243ed1d")
+		(property "Reference" "PAD_B1"
+			(at 226.06 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 226.06 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+			(at 208.026 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 205.486 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single row 4 pin connector"
+			(at 202.946 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SparkFun" "PRT-09916"
+			(at 200.406 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2dec7efe-b787-4201-bf4c-2d35dc007b34")
+		)
+		(pin "1"
+			(uuid "38a59273-248c-4e8c-8b37-6d40ce33443d")
+		)
+		(pin "2"
+			(uuid "3a90b825-4917-470b-93a2-ae87d584b4f0")
+		)
+		(pin "3"
+			(uuid "1e160837-0c37-44eb-92de-36d11ae58855")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "PAD_B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd0c599d-cf32-491f-a552-6fc05a47a662")
+		(property "Reference" "#PWR019"
+			(at 120.65 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 118.11 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7904b36-145c-403b-a51f-fec94b711558")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -14218,88 +15466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x03_JST_P1.0mm_Horizontal_SMD")
-		(at 110.49 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca78bbc5-bef8-4358-8415-7e926e1db180")
-		(property "Reference" "J6"
-			(at 115.57 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_1mm_3"
-			(at 115.57 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
-			(at 110.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 110.49 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3 Pin 2mm JST Connector"
-			(at 110.49 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CONN-10492"
-			(at 110.49 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "925e2936-3ea3-4cc4-b224-9c599e8056e8")
-		)
-		(pin "2"
-			(uuid "232cafab-4176-462c-bc9e-80ae55c5a3b3")
-		)
-		(pin "3"
-			(uuid "4e514c3b-a9b7-4909-bea5-a10e7e2a0558")
-		)
-		(instances
-			(project "contProto"
-				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-Resistor:1k_0402")
 		(at 238.76 157.48 0)
 		(unit 1)
@@ -14325,7 +15491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 238.76 162.052 0)
 			(effects
 				(font
@@ -14377,17 +15543,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x03_JST_P1.0mm_Horizontal_SMD")
-		(at 81.28 81.28 0)
+		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
+		(at 52.07 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cba7c8a9-2fca-408c-9648-275e0bb548ee")
-		(property "Reference" "J18"
-			(at 86.36 80.0099 0)
+		(uuid "ca8288c7-ca5c-49b8-89a7-f7f44fa26055")
+		(property "Reference" "R_SHOULD1"
+			(at 57.15 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14395,8 +15561,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_1mm_3"
-			(at 86.36 82.5499 0)
+		(property "Value" "Conn_01x04"
+			(at 57.15 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14404,8 +15570,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical"
-			(at 81.28 90.17 0)
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+			(at 51.816 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14413,8 +15579,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 81.28 92.71 0)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
+			(at 51.816 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14422,8 +15588,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3 Pin 2mm JST Connector"
-			(at 81.28 97.79 0)
+		(property "Description" "Single row 4 pin connector"
+			(at 51.816 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14431,28 +15597,31 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-10492"
-			(at 81.28 95.25 0)
+		(property "SparkFun" "PRT-09916"
+			(at 52.07 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "4"
+			(uuid "388453c1-77a3-422e-b703-b71dfd33a7a4")
 		)
 		(pin "1"
-			(uuid "372e4f17-49db-47f9-810f-6ae92eb9c626")
+			(uuid "fa2afe39-ae1d-4ae4-8f6a-a768132cc39c")
 		)
 		(pin "2"
-			(uuid "94734d22-0a1c-433c-87dd-635f23437638")
+			(uuid "6c2445c4-9601-4b98-9a84-c96d75b96666")
 		)
 		(pin "3"
-			(uuid "55db54f9-15e3-4c58-a8a5-defee840d012")
+			(uuid "690b8f6b-74da-483a-8266-5781a6700374")
 		)
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J18")
+					(reference "R_SHOULD1")
 					(unit 1)
 				)
 			)
@@ -14484,7 +15653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 264.16 155.702 0)
 			(effects
 				(font
@@ -14612,7 +15781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df279413-84a6-4eb7-ab40-4a7182f9bd83")
-		(property "Reference" "SW3"
+		(property "Reference" "B1"
 			(at 261.62 31.75 0)
 			(effects
 				(font
@@ -14682,7 +15851,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW3")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -14698,7 +15867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e25856cb-71ba-439e-9a82-cc7ff39a610b")
-		(property "Reference" "SW8"
+		(property "Reference" "L1"
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -14768,7 +15937,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW8")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -14800,7 +15969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
 			(at 200.66 151.892 0)
 			(effects
 				(font
@@ -14950,91 +16119,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Connector:Conn_01x04_JST_P2.0mm_Horizontal_SMD")
-		(at 152.4 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e72633a9-7852-4130-8139-e8ae0eac8ef1")
-		(property "Reference" "J15"
-			(at 158.75 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 158.75 177.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 140.716 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/ePH.pdf"
-			(at 138.176 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single row 4 pin connector"
-			(at 135.636 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SparkFun" "PRT-09916"
-			(at 133.096 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "07b2cc08-bcd8-4753-a940-3e84d9b32272")
-		)
-		(pin "1"
-			(uuid "9b598486-0a6e-42e9-8e76-ac3ca514c741")
-		)
-		(pin "2"
-			(uuid "55ec83b2-7ca4-4b19-acf2-b9446f645895")
-		)
-		(pin "3"
-			(uuid "4274dc7e-b50f-4865-846b-0d451b2abd3c")
-		)
-		(instances
-			(project "contProto"
-				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_12x12mm_h8.5mm")
 		(at 176.53 63.5 0)
 		(unit 1)
@@ -15044,7 +16128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7ea5b46-e80d-427b-a8b6-aff5ce11961c")
-		(property "Reference" "SW12"
+		(property "Reference" "MINUS1"
 			(at 176.53 55.88 0)
 			(effects
 				(font
@@ -15114,7 +16198,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW12")
+					(reference "MINUS1")
 					(unit 1)
 				)
 			)
@@ -15333,7 +16417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecd7bacf-54a1-4b48-b75f-04171fb9f69e")
-		(property "Reference" "SW15"
+		(property "Reference" "RB1"
 			(at 139.7 71.12 0)
 			(effects
 				(font
@@ -15403,7 +16487,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW15")
+					(reference "RB1")
 					(unit 1)
 				)
 			)
@@ -15419,7 +16503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed147462-79cb-4be2-8f26-df54d2d659e0")
-		(property "Reference" "SW16"
+		(property "Reference" "LB1"
 			(at 154.94 133.35 0)
 			(effects
 				(font
@@ -15489,7 +16573,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "SW16")
+					(reference "LB1")
 					(unit 1)
 				)
 			)
@@ -15505,7 +16589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1800940-5bf4-44fa-9293-c51e6b967bdc")
-		(property "Reference" "J7"
+		(property "Reference" "CAP2"
 			(at 110.49 137.1599 0)
 			(effects
 				(font
@@ -15559,7 +16643,7 @@
 		(instances
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
-					(reference "J7")
+					(reference "CAP2")
 					(unit 1)
 				)
 			)
@@ -15632,6 +16716,83 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Resistor:1k_0402")
+		(at 187.96 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4415df1-88c3-4bd9-a258-e15a19444683")
+		(property "Reference" "R23"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 187.96 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+			(at 187.96 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-14342"
+			(at 187.96 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3aa91e7-3cda-474f-96b5-0ba3b9995413")
+		)
+		(pin "1"
+			(uuid "ba3710cb-644c-48af-bd9e-c1cc38d10de5")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 252.73 156.21 0)
 		(unit 1)
@@ -15692,6 +16853,77 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Jumper:SolderJumper_3_Open")
+		(at 78.74 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5174299-a619-49c3-b672-ff6c5c75a903")
+		(property "Reference" "JP1"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 78.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Jumper:Jumper_3_NO"
+			(at 78.994 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1af21715-e592-406b-a744-b3b14e0847c1")
+		)
+		(pin "3"
+			(uuid "2aa56408-e12e-409f-bf34-db6ce7cd3f65")
+		)
+		(pin "2"
+			(uuid "855c7da8-416c-49d1-9162-5913a71bdbd7")
+		)
+		(instances
+			(project ""
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -15996,7 +17228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 165.1 180)
+		(at 25.4 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16005,7 +17237,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa72c765-d186-4e78-9b66-7da4efbef331")
 		(property "Reference" "#PWR09"
-			(at 22.86 158.75 0)
+			(at 25.4 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16014,7 +17246,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 22.86 160.02 0)
+			(at 25.4 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16022,7 +17254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 165.1 0)
+			(at 25.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16031,7 +17263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 165.1 0)
+			(at 25.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16040,7 +17272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 165.1 0)
+			(at 25.4 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16055,6 +17287,94 @@
 			(project "contProto"
 				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Conn_01x05_JST_P1.0mm_Horizontal_SMD")
+		(at 83.82 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff177822-802e-4da3-b516-b71ae0afea1b")
+		(property "Reference" "TRACK_B1"
+			(at 92.71 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 92.71 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 72.136 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 69.596 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Right angle SMD polarized connector"
+			(at 67.056 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-20121"
+			(at 64.516 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fde3bb2-70d4-49fc-812d-72028d0db203")
+		)
+		(pin "5"
+			(uuid "d3fee31f-2a06-4ad4-940d-3a9aef3d0512")
+		)
+		(pin "3"
+			(uuid "b71f771a-1376-4eed-bdc2-770f6e6b0b0a")
+		)
+		(pin "4"
+			(uuid "e6281be7-9529-44ba-8af2-a7edbde27aa8")
+		)
+		(pin "2"
+			(uuid "7ecbb8f4-c993-4aff-93e6-af80ba97cbf4")
+		)
+		(instances
+			(project "contProto"
+				(path "/b5ba01a0-7730-430e-a2bc-9ba3d8d3e00e"
+					(reference "TRACK_B1")
 					(unit 1)
 				)
 			)
