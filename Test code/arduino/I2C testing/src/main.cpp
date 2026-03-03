@@ -4,6 +4,8 @@
 
 #define MPU_ADDR 0x68   // default I2C address (AD0 = GND)
 
+MPU6050 mpu(0);
+
 void r();
 void b(int byte);
 
@@ -38,6 +40,7 @@ void setup() {
   Serial.begin(9600);
   Wire.onRequest(r);
   Wire.onReceive(b);
+  mpu.init();
  // Wake up MPU6050 (clear sleep bit)
   //mpuWriteByte(0x6B, 0x00);
 
@@ -55,30 +58,30 @@ int* msg;
 int* bb;
 int d[] = {6, 6};
 void loop() {
+
   
-  /*h.readWireFrom(addr2,2,msg);
+  
+  //h.readWireFrom(addr2,2,msg);
 
   //h.sendWireTo(addr2, 2, d);
 
-  
+
 
   //Serial.println(msg[0]);
   //Serial.println(msg[1]);
 
-  uint8_t rawData[14];
+  //uint8_t rawData[14];
 
   // Read starting at ACCEL_XOUT_H (0x3B), total 14 bytes
-  mpuReadBytes(0x3B, rawData, 14);
+  //mpuReadBytes(0x3B, rawData, 14);
 
-  int16_t accelX = (rawData[0] << 8) | rawData[1];
-  int16_t accelY = (rawData[2] << 8) | rawData[3];
-  int16_t accelZ = (rawData[4] << 8) | rawData[5];
+  int16_t accelX = mpu.get_accel()[0];
+  int16_t accelY = mpu.get_accel()[1];
+  int16_t accelZ = mpu.get_accel()[2];
 
-  int16_t tempRaw = (rawData[6] << 8) | rawData[7];
-
-  int16_t gyroX  = (rawData[8] << 8) | rawData[9];
-  int16_t gyroY  = (rawData[10] << 8) | rawData[11];
-  int16_t gyroZ  = (rawData[12] << 8) | rawData[13];
+  int16_t gyroX  = mpu.get_gyro()[0];
+  int16_t gyroY  = mpu.get_gyro()[1];
+  int16_t gyroZ  = mpu.get_gyro()[2];
 
   Serial.print("AX: "); Serial.print(accelX);
   Serial.print("\tAY: "); Serial.print(accelY);
@@ -88,11 +91,7 @@ void loop() {
   Serial.print("\tGY: "); Serial.print(gyroY);
   Serial.print("\tGZ: "); Serial.print(gyroZ);
 
-  Serial.print("\tTEMP_RAW: "); Serial.println(tempRaw);
-  Serial.print("\ti2cA: "); Serial.println(msg[0]);
-  Serial.print("\ti2cB: "); Serial.println(msg[1]);
-
-  delay(100);*/
+  delay(100);
 
 }
 

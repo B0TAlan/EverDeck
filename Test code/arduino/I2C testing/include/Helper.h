@@ -29,20 +29,16 @@ class MPU6050 {
     void ReadBytes(uint8_t reg, uint8_t *buf, uint8_t len);
     void Reset();
     void Start();
-    int get_accel(int index);
-    int get_gyro(int index);
-    int get_accel_raw(int index, int *data);
-    int get_gyro_raw(int index, int *data);
+    int16_t *get_accel();
+    int16_t *get_gyro();
+    uint8_t *get_raw();
+    
 
     private:
 
     uint8_t rawData[14];
-    uint8_t aX;
-    uint8_t aY;
-    uint8_t aZ;
-    uint8_t gX;
-    uint8_t gY;
-    uint8_t gZ;
+    int16_t accel[3];
+    int16_t gyro[3];
     const int addrs[2] = {0x68, 0x69};
     int addr;
     

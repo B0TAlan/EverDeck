@@ -92,3 +92,53 @@ int debouce(int pin){
 MPU6050::MPU6050(int ADDR){
   addr = addrs[ADDR];
 }
+
+void MPU6050::WriteByte(uint8_t reg, uint8_t data) {
+  Wire.beginTransmission(addr);
+  Wire.write(reg);
+  Wire.write(data);
+  Wire.endTransmission(true);
+}
+
+void MPU6050::ReadBytes(uint8_t reg, uint8_t *buf, uint8_t len) {
+  Wire.beginTransmission(addr);
+  Wire.write(reg);
+  Wire.endTransmission(false); // repeated start
+
+  Wire.requestFrom(addr, len, true);
+
+  for (uint8_t i = 0; i < len; i++) {
+    if (Wire.available()) {
+      buf[i] = Wire.read();
+    }
+  }
+}
+
+void MPU6050::init(){
+  WriteByte(0x6B, 0x00);
+}
+
+int16_t *MPU6050::get_accel(){
+  ReadBytes(0x3B, rawData, 14);
+
+  accel[0] = (rawData[0] << 8) | rawData[1];
+  accel[1] = (rawData[2] << 8) | rawData[3];
+  accel[2] = (rawData[4] << 8) | rawData[5];
+
+  return accel;
+}
+
+int16_t *MPU6050::get_gyro(){
+  ReadBytes(0x3B, rawData, 14);
+  
+  gyro[0]  = (rawData[8] << 8) | rawData[9];
+  gyro[1]  = (rawData[10] << 8) | rawData[11];
+  gyro[2]  = (rawData[12] << 8) | rawData[13];
+
+  return gyro;
+}
+
+uint8_t *MPU6050::get_raw(){
+  ReadBytes(0x3B, rawData, 14);
+  return rawData;
+}
