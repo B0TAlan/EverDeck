@@ -1,0 +1,19 @@
+DIGITAL
+BTN | PIN
+u      7
+l      8
+r      9
+d     10
+l3     11
+l1     12
+-     13
+sp3   14
+pad3  15
+pad4  16
+
+ANALOG
+SIG | PIN | A#
+y     17    A0
+x     18    A1
+l2    19    A2
+a3    20    A3
