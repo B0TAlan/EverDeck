@@ -15,9 +15,10 @@ public:
     void readWireFrom(int addr, int length, int* var);
     void sendWire(int lenght, int* var);
     void sendWireTo(int addr, int lenght, int* var);
+    int debounce(int pin);
 };
 
-int debounce(int pin);
+
 
 class MPU6050 {
     public:

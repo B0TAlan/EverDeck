@@ -1,10 +1,12 @@
 #include<Helper.h>
+#include"Sinput.h"
 #define addr1 0x01
 #define addr2 0x02
 
 #define MPU_ADDR 0x68   // default I2C address (AD0 = GND)
 
 MPU6050 mpu(0);
+
 
 void r();
 void b(int byte);
@@ -30,17 +32,20 @@ void mpuReadBytes(uint8_t reg, uint8_t *buf, uint8_t len) {
   }
 }
 
-
+SInputHID controller;
+//const uint8_t BTN_PINS[] = { 3 };
 
 int16_t ax, ay, az;
 int16_t gx, gy, gz;
 
 void setup() {
-  Wire.begin(addr2);
+  //Wire.begin(addr2);
   Serial.begin(9600);
-  Wire.onRequest(r);
-  Wire.onReceive(b);
-  mpu.init();
+  controller.begin();
+  //Wire.onRequest(r);
+  //Wire.onReceive(b);
+  pinMode(3,INPUT);
+  //mpu.init();
  // Wake up MPU6050 (clear sleep bit)
   //mpuWriteByte(0x6B, 0x00);
 
@@ -62,10 +67,11 @@ void loop() {
   
   
   //h.readWireFrom(addr2,2,msg);
-
+  
   //h.sendWireTo(addr2, 2, d);
-
-
+  uint8_t BTN_PINS[] = { 3 };
+  controller.readButtonPins(BTN_PINS, 1);
+  controller.sendReport();
 
   //Serial.println(msg[0]);
   //Serial.println(msg[1]);
@@ -75,21 +81,21 @@ void loop() {
   // Read starting at ACCEL_XOUT_H (0x3B), total 14 bytes
   //mpuReadBytes(0x3B, rawData, 14);
 
-  int16_t accelX = mpu.get_accel()[0];
-  int16_t accelY = mpu.get_accel()[1];
-  int16_t accelZ = mpu.get_accel()[2];
+  //int16_t accelX = mpu.get_accel()[0];
+  //int16_t accelY = mpu.get_accel()[1];
+  //int16_t accelZ = mpu.get_accel()[2];
+//
+  //int16_t gyroX  = mpu.get_gyro()[0];
+  //int16_t gyroY  = mpu.get_gyro()[1];
+  //int16_t gyroZ  = mpu.get_gyro()[2];
+//
+  Serial.println(h.debounce(3));
+  //Serial.print("\tAY: "); Serial.print(accelY);
+  //Serial.print("\tAZ: "); Serial.print(accelZ);
 
-  int16_t gyroX  = mpu.get_gyro()[0];
-  int16_t gyroY  = mpu.get_gyro()[1];
-  int16_t gyroZ  = mpu.get_gyro()[2];
-
-  Serial.print("AX: "); Serial.print(accelX);
-  Serial.print("\tAY: "); Serial.print(accelY);
-  Serial.print("\tAZ: "); Serial.print(accelZ);
-
-  Serial.print("\tGX: "); Serial.print(gyroX);
-  Serial.print("\tGY: "); Serial.print(gyroY);
-  Serial.print("\tGZ: "); Serial.print(gyroZ);
+  //Serial.print("\tGX: "); Serial.print(gyroX);
+  //Serial.print("\tGY: "); Serial.print(gyroY);
+  //Serial.print("\tGZ: "); Serial.print(gyroZ);
 
   delay(100);
 

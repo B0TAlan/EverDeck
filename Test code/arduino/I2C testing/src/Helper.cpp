@@ -61,7 +61,7 @@ void Helper::sendWireTo(int addr, int lenght, int* var)
   Wire.endTransmission();    
 }
 
-int debouce(int pin){
+int Helper::debounce(int pin){
   int buttonState; 
   int lastButtonState = 0;
   unsigned long lastDebounceTime = 0;
