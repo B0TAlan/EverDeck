@@ -197,7 +197,7 @@ static const uint8_t sinput_hid_report_descriptor[] PROGMEM = {
 // -------------------------------------------------------------
 
 typedef struct {
-    uint32_t buttons;       // 32 digital buttons, 1 bit each
+    uint8_t buttons[4];       // 32 digital buttons, 1 bit each
     int16_t  lx, ly;        // left stick  (-32768 to 32767)
     int16_t  rx, ry;        // right stick (-32768 to 32767)
     uint16_t ltrigger;      // left trigger  (0 to 32767)
@@ -242,7 +242,7 @@ public:
             sinput_hid_report_descriptor,
             sizeof(sinput_hid_report_descriptor)
         );
-        RawHID.begin(_rawBuf, sizeof(_rawBuf));  // add this line
+        
         HID().AppendDescriptor(&node);
     }
 
@@ -256,24 +256,24 @@ public:
     // ── Buttons ───────────────────────────────────────────────
 
     // Set a single button by number (1-32)
-    // pressed=true sets the bit, pressed=false clears it
+    /* pressed=true sets the bit, pressed=false clears it
     void setButton(uint8_t num, bool pressed) {
         if (num < 1 || num > 32) return;
         uint8_t bit = num - 1;
         if (pressed) input.buttons |=  (1UL << bit);
         else         input.buttons &= ~(1UL << bit);
-    }
+    }*/
 
     // Read an array of pin numbers and pack into the buttons field
     // pins[0] → button 1 (bit 0), pins[1] → button 2 (bit 1), etc.
     // Pins are assumed INPUT_PULLUP: LOW = pressed
-    void readButtonPins(const uint8_t* pins, uint8_t count) {
+    /*void readButtonPins(const uint8_t* pins, uint8_t count) {
         input.buttons = 0;
         for (uint8_t i = 0; i < count && i < 32; i++) {
             if (digitalRead(pins[i]) == HIGH)
                 input.buttons |= (1UL << i);
         }
-    }
+    }*/
 
     // ── Analog sticks ─────────────────────────────────────────
 
@@ -352,7 +352,7 @@ private:
         return val;
     }
 
-    uint8_t DEBOUNCE(uint8_t pin){
+uint8_t DEBOUNCE(int pin){
   int buttonState; 
   int lastButtonState = 0;
   unsigned long lastDebounceTime = 0;

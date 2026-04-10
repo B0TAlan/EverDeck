@@ -1,5 +1,6 @@
 #include<Helper.h>
 #include"Sinput.h"
+#include"Controller.h"
 #define addr1 0x01
 #define addr2 0x02
 
@@ -32,7 +33,39 @@ void mpuReadBytes(uint8_t reg, uint8_t *buf, uint8_t len) {
   }
 }
 
-SInputHID controller;
+uint8_t deb(uint8_t pin){
+  int buttonState; 
+  int lastButtonState = 0;
+  unsigned long lastDebounceTime = 0;
+  unsigned long debounceDelay = 10; 
+  int raw = digitalRead(pin);
+  //Serial.println(raw);
+  //Serial.println(millis());
+  if (raw != lastButtonState){
+    lastDebounceTime = millis();
+  }
+  if ((millis() - lastDebounceTime) > debounceDelay) {
+    // whatever the reading is at, it's been there for longer than the debounce
+    // delay, so take it as the actual current state:a
+
+    // if the button state has changed:
+    if (raw != buttonState) {
+      buttonState = raw;
+
+    }
+
+    if (buttonState > 0){
+      buttonState = HIGH;
+    }
+  }
+
+  return buttonState;
+}
+uint8_t ttt[32] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+uint8_t BTN_PINS[] = { 4, 5, 6, 9, 86, 86, 10, 16};
+uint16_t holder[] = {0,0};
+SInputHID Scontroller;
+Controller cont(BTN_PINS, 8, holder, holder, holder);
 //const uint8_t BTN_PINS[] = { 3 };
 
 int16_t ax, ay, az;
@@ -41,10 +74,16 @@ int16_t gx, gy, gz;
 void setup() {
   //Wire.begin(addr2);
   Serial.begin(9600);
-  controller.begin();
+  //Scontroller.begin();
+  cont.begin();
   //Wire.onRequest(r);
   //Wire.onReceive(b);
-  pinMode(3,INPUT);
+  pinMode(4,INPUT);
+  pinMode(5,INPUT);
+  pinMode(6,INPUT);
+  pinMode(9,INPUT);
+  pinMode(16,INPUT);
+  pinMode(10,INPUT);
   //mpu.init();
  // Wake up MPU6050 (clear sleep bit)
   //mpuWriteByte(0x6B, 0x00);
@@ -56,7 +95,7 @@ void setup() {
   //mpuWriteByte(0x1C, 0x00);
 
 }
-
+int i = 0;
 Helper h;
 
 int* msg;
@@ -69,11 +108,16 @@ void loop() {
   //h.readWireFrom(addr2,2,msg);
   
   //h.sendWireTo(addr2, 2, d);
-  uint8_t BTN_PINS[] = { 3 };
-  controller.readButtonPins(BTN_PINS, 1);
-  controller.sendReport();
+  
+  cont.send();
+  cont.printButtonDebug();
+  //Scontroller.readButtonPins(BTN_PINS, 32);
+  //Scontroller.setButton(3, true);
+  //Scontroller.sendReport();
 
-  //Serial.println(msg[0]);
+  
+  //Serial.println(deb(9));
+  //Serial.println(i);
   //Serial.println(msg[1]);
 
   //uint8_t rawData[14];
@@ -89,7 +133,12 @@ void loop() {
   //int16_t gyroY  = mpu.get_gyro()[1];
   //int16_t gyroZ  = mpu.get_gyro()[2];
 //
-  Serial.println(h.debounce(3));
+  //Serial.println(deb(16));
+  //Serial.println(deb(4));
+  //Serial.println(deb(5));
+  //Serial.println(deb(6));
+  //Serial.println(deb(9));
+  //Serial.println(digitalRead(3));
   //Serial.print("\tAY: "); Serial.print(accelY);
   //Serial.print("\tAZ: "); Serial.print(accelZ);
 
