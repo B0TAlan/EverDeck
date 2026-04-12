@@ -90,6 +90,9 @@ uint8_t Controller::deb(uint8_t pin){
   int raw = digitalRead(pin);
   //Serial.println(raw);
   //Serial.println(millis());
+  if (pin == 86){
+    return 0;
+  }
   if (raw != lastButtonState){
     lastDebounceTime = millis();
   }
