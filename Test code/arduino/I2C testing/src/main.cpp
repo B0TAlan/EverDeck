@@ -61,20 +61,24 @@ uint8_t deb(uint8_t pin){
 
   return buttonState;
 }
+
+uint8_t msg[4];
+
 uint8_t ttt[32] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-uint8_t BTN_PINS[] = { 4, 5, 6, 9, 86, 86, 10, 16};
+uint8_t BTN_PINS[] = { 4, 5, 6, 9, 86, 86, 10, 16, 86, 86, 86, 86, 86, 86, 86, 86, 86};
 uint16_t holder[] = {0,0};
 SInputHID Scontroller;
-Controller cont(BTN_PINS, 8, holder, holder, holder);
+Controller cont(false);
 //const uint8_t BTN_PINS[] = { 3 };
 
 int16_t ax, ay, az;
 int16_t gx, gy, gz;
 
 void setup() {
-  //Wire.begin(addr2);
+  Wire.begin(addr1);
   Serial.begin(9600);
   //Scontroller.begin();
+  cont.butNum(15);
   cont.begin();
   //Wire.onRequest(r);
   //Wire.onReceive(b);
@@ -98,19 +102,33 @@ void setup() {
 int i = 0;
 Helper h;
 
-int* msg;
+
 int* bb;
 int d[] = {6, 6};
 void loop() {
 
-  
-  
-  //h.readWireFrom(addr2,2,msg);
-  
+  h.readu(addr2,4,msg);
+  uint8_t bb[] = {cont.deb(4), cont.deb(5), cont.deb(6),cont.deb(9), 0, 0, cont.deb(10), cont.deb(16), 0, 0, 0, msg[0], msg[1], msg[2], msg[3]};
+  cont.buttons = bb;
+  //cont.bindBut(ControllerButtons::A, cont.deb(4));
+  //cont.bindBut(ControllerButtons::B, cont.deb(5));
+  //cont.bindBut(ControllerButtons::X, cont.deb(6));
+  //cont.bindBut(ControllerButtons::Y, cont.deb(9));
+  //cont.bindBut(ControllerButtons::START, cont.deb(10));
+  //cont.bindBut(ControllerButtons::BACK, cont.deb(16));
+  //cont.bindBut(ControllerButtons::UP, msg[0]);
+  //cont.bindBut(ControllerButtons::DWN, msg[1]);
+  //cont.bindBut(ControllerButtons::LEFT, msg[2]);
+  //cont.bindBut(ControllerButtons::RIGHT, msg[3]);
+  cont.send();
+  Serial.println(cont.deb(10));
+  //Serial.print(msg[1]);
+  //Serial.print(msg[2]);
+  //Serial.println(msg[3]);
   //h.sendWireTo(addr2, 2, d);
   
-  cont.send();
-  cont.printButtonDebug();
+  
+  //cont.printButtonDebug();
   //Scontroller.readButtonPins(BTN_PINS, 32);
   //Scontroller.setButton(3, true);
   //Scontroller.sendReport();
@@ -146,7 +164,7 @@ void loop() {
   //Serial.print("\tGY: "); Serial.print(gyroY);
   //Serial.print("\tGZ: "); Serial.print(gyroZ);
 
-  delay(100);
+  delay(10);
 
 }
 

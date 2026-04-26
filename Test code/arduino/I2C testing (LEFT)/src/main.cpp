@@ -73,10 +73,10 @@ int16_t gx, gy, gz;
 
 void setup() {
   Wire.begin(addr2);
-  Serial.begin(9600);
+  Serial.begin(4800);
   //Scontroller.begin();
   //cont.begin();
-  //Wire.onRequest(r);
+  Wire.onRequest(r);
   //Wire.onReceive(b);
   pinMode(4,INPUT);
   pinMode(5,INPUT);
@@ -97,15 +97,18 @@ void setup() {
 int i = 0;
 Helper h;
 
-int* msg;
+uint8_t m[] = {1,2,3,4};
+
+int msg[4];
+int i2cnum = 4;
 int* bb;
 int d[] = {6, 6};
 void loop() {
 
-  Serial.print(digitalRead(BTN_PINS[0]));
-  Serial.print(digitalRead(BTN_PINS[1]));
-  Serial.print(digitalRead(BTN_PINS[2]));
-  Serial.println(digitalRead(BTN_PINS[3]));
+  m[0] = cont.deb(BTN_PINS[0]);
+  m[1] = cont.deb(BTN_PINS[1]);
+  m[2] = cont.deb(BTN_PINS[2]);
+  m[3] = cont.deb(BTN_PINS[3]);
   
   //h.readWireFrom(addr2,2,msg);
   
@@ -146,13 +149,12 @@ void loop() {
   //Serial.print("\tGY: "); Serial.print(gyroY);
   //Serial.print("\tGZ: "); Serial.print(gyroZ);
 
-  delay(100);
+  delay(10);
 
 }
 
 void r(){
-  int m[] = {1,3};
-  h.sendWire(2,m);
+  h.sendu(4,m);
 }
 
 void b(int byte){

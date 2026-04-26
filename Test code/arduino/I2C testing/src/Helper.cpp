@@ -2,24 +2,22 @@
 
 Helper::Helper() {}
 
-void Helper::readWireFrom(int addr, int length, int *var)
+void Helper::readWireFrom(int addr, int length, uint8_t *var)
 {
     Wire.requestFrom(addr, length * 2);
     int i = 0;
-    while (Wire.available())
-    { // While there are bytes to read from the slave
+
+    while (Wire.available() >= 2)  // ← ensure 2 bytes are available before reading
+    {
+        byte msb = Wire.read();
+        byte lsb = Wire.read();
+
         if (i < length)
-        {                              // Ensure we don't write beyond our array bounds
-            byte msb = Wire.read();    // Read the Most Significant Byte
-            byte lsb = Wire.read();    // Read the Least Significant Byte
-            var[i] = (msb << 8) | lsb; // Reconstruct the integer
+        {
+            var[i] = (int16_t)((msb << 8) | lsb);  // ← cast for correct signed handling
             i++;
         }
-        else
-        {
-            // If slave sends more than expected, just read and discard
-            Wire.read();
-        }
+        // discard case is now implicit — we just don't store it
     }
 }
 
@@ -40,6 +38,24 @@ void Helper::readWire(int *var)
             // If slave sends more than expected, just read and discard
             Wire.read();
         }
+    }
+}
+
+void Helper::readu(int addr, int length, uint8_t *var)
+{
+    Wire.requestFrom(addr, length);  // no * 2, one byte per value
+    int i = 0;
+    while (Wire.available() && i < length)
+    {
+        var[i] = Wire.read();
+        i++;
+    }
+}
+
+void Helper::sendu(int lenght, uint8_t* var)
+{
+    for(int i = 0; i < lenght; i++){
+        Wire.write(var[i]);  // just write the byte directly
     }
 }
 

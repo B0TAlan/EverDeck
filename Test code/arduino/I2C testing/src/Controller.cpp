@@ -1,16 +1,30 @@
 #include"Controller.h"
 
-Controller::Controller(uint8_t* pins,size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig){
+Controller::Controller(uint8_t* pins,size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, bool buttype){
     buttons = pins;
     lStick = ls;
     triggers = trig;
-   
+    butType = buttype;
     bn = pinNum;
 }
 
-Controller::Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz){
-    Controller(pins, pinNum, ls, rs, trig);
+Controller::Controller(uint8_t* pins,size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig){
+    Controller( pins, pinNum,  ls, rs, trig, ButtonType::PIN);
+}
+
+Controller::Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz, bool buttype){
+    Controller(pins, pinNum, ls, rs, trig, buttype);
     deadZone = dz;
+}
+
+Controller::Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz){
+    Controller( pins,  pinNum,  ls, rs, trig, dz, ButtonType::PIN);
+}
+
+Controller::Controller(bool bt){
+    uint8_t ttt[32] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+    butType = bt;
+    buttons = ttt;
 }
 
 void Controller::begin(){
@@ -33,9 +47,12 @@ void Controller::stop(){
 void Controller::send(){
     
     for (uint8_t i = 0; i<bn; i++){
-        setBut(ControllerButtons::Masks[i], deb(buttons[i]));
+        if (butType == true) setBut(ControllerButtons::Masks[i], deb(buttons[i]));
+        else setBut(ControllerButtons::Masks[i], buttons[i]);
+
+        //Serial.print(buttons[i]);
+        Serial.print(i);
     }
-    
     
     if (STATE == true) HID().SendReport(1, &input, sizeof(input));
 
@@ -55,6 +72,7 @@ void Controller::setBut(uint8_t Button, int value){
     else { // If released (LOW)
         input.buttons[byteIdx] &= ~(1 << bitIdx);
     }
+    
 }
 
 
@@ -80,6 +98,10 @@ void Controller::printButtonDebug() {
 void Controller::bindBut(uint8_t Button, int pin){
     int index = get_index(ControllerButtons::Masks, 14, Button);
     buttons[index] = pin;
+}
+
+void Controller::butNum(size_t num){
+    bn = num;
 }
 
 uint8_t Controller::deb(uint8_t pin){

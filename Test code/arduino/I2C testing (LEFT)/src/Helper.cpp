@@ -43,6 +43,13 @@ void Helper::readWire(int *var)
     }
 }
 
+void Helper::sendu(int lenght, uint8_t* var)
+{
+    for(int i = 0; i < lenght; i++){
+        Wire.write(var[i]);  // just write the byte directly
+    }
+}
+
 void Helper::sendWire(int lenght, int* var)
 {
     for(int i = 0; i<lenght;i++){

@@ -12,7 +12,9 @@ public:
     Helper();
 
     void readWire(int* var);
-    void readWireFrom(int addr, int length, int* var);
+    void readWireFrom(int addr, int length, uint8_t* var);
+    void readu(int addr, int length, uint8_t* var);
+    void sendu(int lenght, uint8_t* var);
     void sendWire(int lenght, int* var);
     void sendWireTo(int addr, int lenght, int* var);
     int debounce(int pin);
