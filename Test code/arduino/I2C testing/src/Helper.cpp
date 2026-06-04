@@ -1,5 +1,6 @@
 #include "Helper.h"
 
+
 Helper::Helper() {}
 
 void Helper::readWireFrom(int addr, int length, uint8_t *var)
@@ -121,7 +122,7 @@ void MPU6050::ReadBytes(uint8_t reg, uint8_t *buf, uint8_t len) {
   Wire.write(reg);
   Wire.endTransmission(false); // repeated start
 
-  Wire.requestFrom(addr, len, true);
+  Wire.requestFrom((uint8_t)addr, (uint8_t)len, (uint8_t)true);
 
   for (uint8_t i = 0; i < len; i++) {
     if (Wire.available()) {
