@@ -49,7 +49,7 @@ class Controller{
     Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig);
     Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz);
     Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, bool bt);
-    Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz, bool bt);
+    Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz, bool bt, bool is, bool it);
     
     void setBut(uint8_t Button, int value);
 
@@ -66,6 +66,12 @@ class Controller{
     void printButtonDebug();
 
     void butNum(size_t num);
+
+    void setSticks(uint16_t* val, uint16_t deadZone, bool invert);
+
+    void setTrig(uint16_t* val, uint16_t deadZone, bool invert);
+
+    void setTrack();
 
     uint8_t deb(uint8_t pin);
     uint8_t *buttons, *Dpad; 

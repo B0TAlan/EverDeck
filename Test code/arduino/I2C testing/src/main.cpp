@@ -12,56 +12,6 @@ MPU6050 mpu(0);
 void r();
 void b(int byte);
 
-void mpuWriteByte(uint8_t reg, uint8_t data) {
-  Wire.beginTransmission(MPU_ADDR);
-  Wire.write(reg);
-  Wire.write(data);
-  Wire.endTransmission(true);
-}
-
-void mpuReadBytes(uint8_t reg, uint8_t *buf, uint8_t len) {
-  Wire.beginTransmission(MPU_ADDR);
-  Wire.write(reg);
-  Wire.endTransmission(false); // repeated start
-
-  Wire.requestFrom(MPU_ADDR, len, true);
-
-  for (uint8_t i = 0; i < len; i++) {
-    if (Wire.available()) {
-      buf[i] = Wire.read();
-    }
-  }
-}
-
-uint8_t deb(uint8_t pin){
-  int buttonState; 
-  int lastButtonState = 0;
-  unsigned long lastDebounceTime = 0;
-  unsigned long debounceDelay = 10; 
-  int raw = digitalRead(pin);
-  //Serial.println(raw);
-  //Serial.println(millis());
-  if (raw != lastButtonState){
-    lastDebounceTime = millis();
-  }
-  if ((millis() - lastDebounceTime) > debounceDelay) {
-    // whatever the reading is at, it's been there for longer than the debounce
-    // delay, so take it as the actual current state:a
-
-    // if the button state has changed:
-    if (raw != buttonState) {
-      buttonState = raw;
-
-    }
-
-    if (buttonState > 0){
-      buttonState = HIGH;
-    }
-  }
-
-  return buttonState;
-}
-
 uint8_t msg[4];
 
 uint8_t ttt[32] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
