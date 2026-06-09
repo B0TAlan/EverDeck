@@ -49,7 +49,8 @@ class Controller{
     Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig);
     Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz);
     Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, bool bt);
-    Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz, bool bt, bool is, bool it);
+    Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz, bool bt);
+    Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz, bool bt, bool iL, bool iR);
     
     void setBut(uint8_t Button, int value);
 
@@ -73,12 +74,17 @@ class Controller{
 
     void setTrack();
 
+    void flipSticks(bool left, bool right );
+
+    void setDead(int l, int r, int L2, int R2);
+
     uint8_t deb(uint8_t pin);
     uint8_t *buttons, *Dpad; 
     private:
     //vars
     int *deadZone; // {ls,rs,lt,rt}
-    bool STATE = true;
+    bool STATE = true, invL = false, invR = false;
+    
     uint16_t *lStick, *rStick, *triggers; // analog stick {x, y} & triggers {L, R}
     
     Gamepad_Input_Report_t  input  = {};  // zero-initialised on startup

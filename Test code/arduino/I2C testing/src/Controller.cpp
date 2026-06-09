@@ -1,11 +1,9 @@
 #include"Controller.h"
 
 Controller::Controller(uint8_t* pins,size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, bool buttype){
-    buttons = pins;
-    lStick = ls;
-    triggers = trig;
-    butType = buttype;
-    bn = pinNum;
+    int noZone[] = {0,0,0,0};
+    Controller(pins, pinNum, ls, rs, trig, noZone, buttype, false, false);
+
 }
 
 Controller::Controller(uint8_t* pins,size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig){
@@ -13,8 +11,18 @@ Controller::Controller(uint8_t* pins,size_t pinNum, uint16_t* ls, uint16_t* rs, 
 }
 
 Controller::Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz, bool buttype){
-    Controller(pins, pinNum, ls, rs, trig, buttype);
+    Controller(pins, pinNum, ls, rs, trig, dz, buttype, false, false);
+}
+
+Controller::Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz, bool buttype, bool invertLeft, bool invertRight){
+    buttons = pins;
+    lStick = ls;
+    triggers = trig;
+    butType = buttype;
+    bn = pinNum;
     deadZone = dz;
+    invL = invertLeft;
+    invR = invertRight;
 }
 
 Controller::Controller(uint8_t* pins, size_t pinNum, uint16_t* ls, uint16_t* rs, uint16_t* trig, int* dz){
@@ -102,6 +110,16 @@ void Controller::bindBut(uint8_t Button, int pin){
 
 void Controller::butNum(size_t num){
     bn = num;
+}
+
+void Controller::flipSticks(bool left, bool right){
+    invL = left;
+    invR = right;
+}
+
+void Controller::setDead(int l, int r, int l2, int r2){
+    int dz[] = {l, r, l2, r2};
+    deadZone = dz;
 }
 
 uint8_t Controller::deb(uint8_t pin){
