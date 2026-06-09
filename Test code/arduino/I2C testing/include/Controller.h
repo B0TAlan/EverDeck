@@ -68,9 +68,9 @@ class Controller{
 
     void butNum(size_t num);
 
-    void setSticks(uint16_t* val, uint16_t deadZone, bool invert);
+    void setSticks(uint16_t* val, uint16_t* deadZone, bool invertL, bool invertR);
 
-    void setTrig(uint16_t* val, uint16_t deadZone, bool invert);
+    void setTrig(uint16_t* val, uint16_t* deadZone, bool invertL, bool invertR);
 
     void setTrack();
 

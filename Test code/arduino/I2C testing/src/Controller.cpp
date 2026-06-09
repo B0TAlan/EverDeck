@@ -122,6 +122,10 @@ void Controller::setDead(int l, int r, int l2, int r2){
     deadZone = dz;
 }
 
+void Controller::setSticks(uint16_t* val, uint16_t* deadZone, bool invertL, bool invertR){}
+
+void Controller::setTrig(uint16_t* val, uint16_t* deadZone, bool invertL, bool invertR){}
+
 uint8_t Controller::deb(uint8_t pin){
   int buttonState; 
   int lastButtonState = 0;
